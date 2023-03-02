@@ -6,21 +6,35 @@
 */
 @import url('./reset.css');
 @import url('./fonts.css');
+@import url('./variables.css');
 @import url('./base.css');
-@import url('./header.css');
 
-:root {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+/* Header */
+@import url('./common/header.css');
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+/* Home page */
+@import url('./home/hero.css');
+@import url('./home/about-complex.css');
+@import url('./home/restaurant-details.css');
+@import url('./home/welcome-complex.css');
+@import url('./home/hotel-details.css');
+@import url('./home/location-contacts.css');
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+/* Hotel page */
+@import url('./hotel/hero.css');
+@import url('./hotel/double-room.css');
+@import url('./hotel/triple-room.css');
+@import url('./hotel/four-room.css');
+
+/* Restaurant page */
+@import url('./restaurant/hero.css');
+@import url('./restaurant/about-kitchen.css');
+@import url('./restaurant/restaurant-menu.css');
+
+/* Room page */
+@import url('./room/hero.css');
+@import url('./room/amenities.css');
+
+/* Footer */
+@import url('./common/footer.css');
+

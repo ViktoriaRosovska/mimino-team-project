@@ -2,14 +2,11 @@
   outline: 1px solid grey;
 }
 .container {
-  min-width: 320px;
-  max-width: 378px;
   padding-left: 20px;
   padding-right: 20px;
   outline: 1px solid red;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
 }
 
 @media screen and (max-width: 319px) {
@@ -18,18 +15,30 @@
     }
     .container {
         width: 100%;
-    }
-    
+    }  
 }
-@media screen and (min-width: 320px) and (max-width: 377px) {
-    .section {
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .container {
         min-width: 320px;
-        max-width: 378px;
+        max-width: 374px;
     }
 }
 
-@media screen and (min-width: 378px) and (max-width: 767px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
     .container {
-        width: 378px;
+        width: 375px;
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .container {
+      width: 768px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
 }
