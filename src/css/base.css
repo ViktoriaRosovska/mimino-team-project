@@ -1,0 +1,35 @@
+.section {
+  outline: 1px solid grey;
+}
+.container {
+  min-width: 320px;
+  max-width: 378px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 319px) {
+    .section {
+      min-width: 319px;  
+    }
+    .container {
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width: 320px) and (max-width: 377px) {
+    .section {
+        min-width: 320px;
+        max-width: 378px;
+    }
+}
+
+@media screen and (min-width: 378px) and (max-width: 767px) {
+    .container {
+        width: 378px;
+    }
+}
