@@ -1,5 +1,6 @@
-.header {
-  padding: 20px 0;
+.header-section {
+  background: #121212;
+  border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
 }
 
 .nav-list {
@@ -19,3 +20,135 @@
 .nav-link:focus {
   color: #747bff;
 }
+
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.57;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #F7F7F7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo-txt {
+  margin-top: 3px;
+  font-size: 6px;
+  line-height: 1.33;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color:#F7F7F7;
+}
+
+@media screen and (max-width: 767.98px) {
+  .header-nav,
+  .social-nav {
+    display: none;
+  }
+  .social-icons {
+    margin-top: auto;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .social-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .social-icons {
+    gap: 16px;
+  }
+  .logo.head {
+    margin-right: 120px;
+  }
+
+
+
+
+
+
+.social-icons {
+  display: flex;
+  gap: 14px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+
+
+
+/* ----mobile menu---- */
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--main-text-color);
+  transition: transform 250ms ease-in-out;
+  transform: translateX(130%);
+  padding-bottom: 24px;
+}
+
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.menu-toggle {
+  position: absolute;
+  left: 20px;
+  top: 25px;
+  display: flex;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
+.menu-container .logo {
+  border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  padding-top: 128px;
+  margin-bottom: auto;
+}
+
+.mobile-menu .link {
+  display: block;
+  color: var(--lite-text-color);
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+}
+
+/* @media screen and (min-width: 420px) {
+
+  .social-icon {
+    gap: 56px;
+  }
+} */
