@@ -1,0 +1,116 @@
+
+.rooms-container{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.lux-room-list{
+ display: flex;
+ gap: 20px;
+ padding-top: 20px;
+ padding-bottom: 32px;
+}
+@media screen and (min-width:768px) {
+    .lux-room-list{
+        display: flex;
+        flex-direction: column;
+        width: 341px;
+        align-items: flex-end;
+        gap: 32px;
+       }
+ }
+@media screen and (min-width:1200px) {
+    .lux-room-list{
+        display: flex;
+        align-content: space-between;
+       }
+}
+@media screen and (min-width:768px) {
+   .mb-img-lux{
+    margin-left: 373px;
+    position: absolute;
+    top: 4.5%;
+
+   }
+}
+.btn-room{
+padding: 8px 18px;
+font-weight: 400;
+background-color: transparent;
+
+
+
+border: 0.8px solid #121212;
+border-radius: 32px;
+
+font-size: 14px;
+line-height: 1.3;
+
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+.btn-room:hover,
+.btn-room:focus {
+  background-color: var(--main-white-color);
+  color: var(--main-dark-theme);
+}
+.rooms-title{
+width: 246px;
+height: 80px;
+font-weight: 700;
+font-size: 32px;
+line-height: 1.25;
+margin-bottom:32px;
+}
+@media screen and (min-width:768px) {
+    .rooms-title{
+        width: 440px;
+        height: 45px;
+        }
+ }
+.rooms-paragraph-list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom:28px ;
+}
+@media screen and (min-width:768px) {
+    .rooms-paragraph-list{
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        margin-bottom: 40px;
+    }
+ }
+ .rooms-paragraph-one{
+font-size: 14px;
+line-height: 1.3;
+text-transform: uppercase;  
+}
+@media screen and (min-width:768px) {
+    .rooms-paragraph-one{
+        font-size: 18px;
+        line-height: 1.5;
+        width: 369px;
+    }
+}    
+.rooms-paragraph-two{
+font-size: 14px;
+line-height: 1.3;
+text-transform: uppercase;
+}
+@media screen and (min-width:768px) {
+    .rooms-paragraph-two{
+        font-size: 18px;
+        line-height: 1.5;
+        width: 300px;
+    }
+}
+.rooms-btn-list{
+    display: flex;
+    gap: 12px;
+}
+@media screen and (min-width:768px) {
+    .rooms-btn-list{
+        flex-direction: row-reverse;
+    }
+}
