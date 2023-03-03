@@ -78,3 +78,41 @@
 .btns-hotel-details .btn:not(:last-child) {
     margin-right: 12px;
 }
+
+@media screen and (min-width: 768px) {
+    .section.hotel-details-section {
+        height: 929px;
+    }
+
+    .hotel-detaild-description{
+        display: flex;
+    }
+
+    .title-hotel-details {
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 32px;
+        margin-bottom: 80px;
+
+        font-size: 68px;
+    }
+
+    .text-hotel-details {
+        display: flex;
+        width: 362px;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .section.hotel-details-section {
+        position: relative;
+        height: 800px;
+    }
+
+    .btns-hotel-details {
+        position: absolute;
+        top: 44px;
+        right: 32px;
+    }
+}
