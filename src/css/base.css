@@ -63,4 +63,17 @@
   }
 }
 
+.btn {
+  padding: 8px 24px;
+  border-radius: 32px;
+  background-color: transparent;
+  border: 0.8px solid var(--main-light-theme);
+  color: var(--main-light-theme);
+  text-transform: uppercase;
+}
 
+.btn:hover,
+.btn:focus {
+  background-color: var(--main-white-color);
+  color: var(--main-dark-theme);
+}
