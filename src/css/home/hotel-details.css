@@ -70,7 +70,9 @@
 }
 
 .images-hotel-details-list {
-    
+    display: block;
+    height: 573px;
+    margin-bottom: 81px;
 }
 
 .btns-hotel-details .btn:not(:last-child) {
