@@ -2,6 +2,8 @@
   --main-dark-theme: #121212;
   --main-light-theme: #F6F6F6;
   --main-white-color: #FFFFFF;
+
+  --font-medium-500: 500;
 }
 
 body {
