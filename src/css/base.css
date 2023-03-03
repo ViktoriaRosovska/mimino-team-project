@@ -85,6 +85,23 @@
   background-color: var(--main-dark-theme);
   color: var(--main-light-theme);
 }
+
+@media screen and (max-width: 767px) {
+  .btn {
+      padding: 8px 18px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+      padding: 8px 24px;
+    }
+  }
+
+
+
+
+
 .paragraph {
   text-transform: uppercase;
 }

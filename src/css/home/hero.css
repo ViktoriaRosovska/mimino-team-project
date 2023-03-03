@@ -84,7 +84,7 @@
 
 @media screen and (min-width: 768px) {
     .section.hero-section {
-        /* height: 946px;         */
+        height: 946px;        
     }
     .text-hero:nth-child() {
       margin-bottom: 0px;
