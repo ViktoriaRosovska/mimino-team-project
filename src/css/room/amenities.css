@@ -76,4 +76,9 @@
 .amenities-position-img {
 }
 .amenities-btn {
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #f7f7f7;
 }
