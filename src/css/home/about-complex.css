@@ -2,12 +2,6 @@
   padding-top: 64px;
   padding-bottom: 64px;
 }
-@media screen and (min-width: 768px) {
-  .about-section {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-}
 
 /* About common text styles */
 .about-subtitle {
@@ -79,57 +73,60 @@
   max-width: 335px;
 }
 
-
 /* About-bottom-side */
 .about-business-descr {
-    max-width: 263px;
+  max-width: 263px;
 }
 
 .about-bottom-side {
-    position: relative;
+  position: relative;
 }
 
 .about-bottom-side .about-rewiev {
-    position: absolute;
-    bottom: 59%;
-    left: 0;
+  position: absolute;
+  bottom: 59%;
+  left: 0;
 }
 
 /* About-rewiev card */
 .about-rewiev {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    width: 212px;
-    padding: 10px 14px;
-    
-    background: var(--main-dark-theme);
-    box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 212px;
+  padding: 10px 14px;
+
+  background: var(--main-dark-theme);
+  box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
 }
 
 .about-cust-name {
-    margin-bottom: 7px;
+  margin-bottom: 7px;
 }
 
 .about-img-up {
-    position: relative;
+  position: relative;
 }
 
 .about-img-up .about-rewiev {
-    position: absolute;
-    bottom: 134px;
-    right: 0;
+  position: absolute;
+  bottom: 134px;
+  right: 0;
 }
 
 /* About business container */
 .about-business-container {
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 40px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 40px;
 }
 
 @media screen and (min-width: 768px) {
+  .about-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
   .about-img-item:nth-child(2) {
     position: absolute;
     top: 50%;
@@ -162,5 +159,45 @@
   }
   .about-business-container {
     gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .about-up-side {
+    display: flex;
+    gap: 107px;
+    align-items: center;
+  }
+  .about-descr {
+    max-width: 530px;
+  }
+  .about-img-up {
+    width: 803px;
+  }
+  .about-up-side {
+    margin-bottom: 100px;
+  }
+  .about-img-up .about-rewiev {
+      bottom: 399px;
+      right: 155px;
+  }
+  .about-bottom-side {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 87px;
+    margin-left: auto;
+  }
+  .about-business-container {
+    gap: 54px;
+    padding-top: 127px;
+    padding-bottom: 56px;
+  }
+  .about-bottom-side .about-rewiev {
+      bottom: 128px;
+      left: 738px;
   }
 }
