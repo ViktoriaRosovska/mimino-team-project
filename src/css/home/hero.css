@@ -5,6 +5,14 @@
 
 
 .section.hero-section {
+
+    position: relative;
+    height: 832px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+
+
     text-align: center;
     background-color: var(--main-dark-theme);
 }
