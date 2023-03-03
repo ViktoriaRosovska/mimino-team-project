@@ -67,7 +67,7 @@
     position: absolute;
     top: 389px;
     left: 26px;
-
+    font-weight: 400;
     font-size: 80px;
     line-height: 1.0;
 
@@ -85,7 +85,7 @@
     color: var(--main-light-theme);
 }
 
-.btns_hero .btn {
+.btns-hero .btn {
     font-size: 14px;
     line-height: 1.3;
 
@@ -96,7 +96,7 @@
     margin-right: 14px;
 }
 
-.text-hero-main {
+.text-hero {
     text-align: left;
 
     font-size: 14px;
@@ -107,7 +107,7 @@
     color: var(--main-light-theme);
 }
 
-.text_hero-main:not(:last-child) {
+.text-hero:not(:last-child) {
     margin-bottom: 32px;
 }
 
@@ -194,7 +194,6 @@
     .title-hero {
         top: 242px;
         left: -866px;
-
         font-size: 180px;
         line-height: 1;
     }
