@@ -19,3 +19,8 @@
 .nav-link:focus {
   color: #747bff;
 }
+
+.social-icon {
+  fill: crimson;
+  stroke: greenyellow;
+}
