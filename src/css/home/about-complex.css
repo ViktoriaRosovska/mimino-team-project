@@ -3,7 +3,10 @@
     padding-bottom: 64px;
 }
 
+/* About common text styles */
 .about-subtitle {
+    margin-bottom: 18px;
+
     font-weight: 400;
     font-size: 12px;
     line-height: calc(14 / 12);
@@ -13,6 +16,10 @@
 }
 .about-paragraph {
     font-weight: 500;
+    letter-spacing: -0.02em;
+}
+.about-paragraph:not(:last-child) {
+    margin-bottom: 14px;
 }
 .about-cust-name {
     font-weight: 500;
@@ -29,6 +36,7 @@
     color: var(--main-light-theme);
 }
 
+/* Close media */
 @media screen and (max-width: 767px) {
     .about-img-item:not(:last-child) {
         margin-bottom: 20px;
@@ -38,21 +46,65 @@
         margin-right: auto;
     }
 }
+@media screen and (max-width: 1439px) {
+    .about-img-list {
+        margin-bottom: 32px;
+    }
+    .about-pic {
+       display: block;
+       margin-bottom: 54px; 
+    }
+}
+
+/* About-up-side */
+.about-up-side {
+    margin-bottom: 64px;
+}
+.about-descr {
+    max-width: 335px;
+}
+
+/* About-bottom-side */
+.about-business-descr {
+    max-width: 263px;
+}
+.about-bottom-side {
+    position: relative;
+}
+.about-bottom-side .about-rewiev {
+    position: absolute;
+    bottom: 59%;
+    left: 0;
+}
 
 /* About-rewiev card */
-
 .about-rewiev {
     display: flex;
     align-items: center;
     gap: 12px;
     width: 212px;
     padding: 10px 14px;
-
+    
     background: var(--main-dark-theme);
     box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
 }
 .about-cust-name {
     margin-bottom: 7px;
+}
+.about-img-up {
+    position: relative;
+}
+.about-img-up .about-rewiev {
+    position: absolute;
+    bottom: 134px;
+    right: 0;
+}
+
+/* About business container */
+.about-business-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 40px;
 }
     
