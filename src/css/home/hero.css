@@ -84,7 +84,7 @@
 
 @media screen and (min-width: 768px) {
     .section.hero-section {
-        /* height: 946px;         */
+        height: 946px;        
     }
     .text-hero:nth-child() {
       margin-bottom: 0px;
@@ -94,7 +94,7 @@
         height: 710px;
         margin-right: auto;
         margin-left: auto;
-        margin-bottom: 76px;
+        /* margin-bottom: 76px; */
 
         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
                                 var(--main-dark-theme) 98.51%),
@@ -142,8 +142,10 @@
 
 @media screen and (min-width: 1440px) {
     .section.hero-section {
-        position: relative;
-        /* height: 770px; */
+        /* position: relative; */
+        height: 770px;
+        padding-top: 0;
+        padding-bottom: 0;
         z-index: -10;        
     }
 
@@ -153,7 +155,8 @@
         height: 770px;
         top: 0;
         left: 898px;
-
+        padding-bottom: 0;
+        background-size: contain;
         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
 
                                  var(--main-dark-theme) 98.51%),
