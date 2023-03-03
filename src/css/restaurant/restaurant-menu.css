@@ -24,6 +24,8 @@
 }
 .rest-menu-dish {
     display: flex;
+    align-items: center;
+    padding-left: 8px;
     margin-bottom: 8px;
     font-weight: 500;
     font-size: 14px;
@@ -69,7 +71,7 @@
     max-width: 199px;
 }
 .rest-menu-item:nth-child(5) .rest-menu-dish-wrapper {
-    max-width: 203px;
+    max-width: 210px;
 }
 
 .rest-menu-list {
@@ -88,6 +90,18 @@
 }
 .rest-menu-price-wrapper {
     text-align: end;
+}
+
+.rest-menu-dish::before {
+    content: " ";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4px;
+    height: 4px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background-color: var(--main-light-theme);
 }
 
 
