@@ -197,6 +197,9 @@
     .title_hero-main {
         top: 242px;
         left: -866px;
+
+        font-size: 180px;
+        line-height: 1;
     }
 
     .btns_hero {
