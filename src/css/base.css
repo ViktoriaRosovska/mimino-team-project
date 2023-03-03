@@ -77,3 +77,7 @@
   background-color: var(--main-white-color);
   color: var(--main-dark-theme);
 }
+
+.paragraph {
+  text-transform: uppercase;
+}
