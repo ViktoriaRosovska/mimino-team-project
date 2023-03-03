@@ -82,7 +82,9 @@
 
 
 @media screen and (min-width: 768px) {
-    
+    .section.hero-section {
+        /* height: 946px;         */
+    }
     .text-hero:nth-child() {
       margin-bottom: 0px;
     }
@@ -94,9 +96,7 @@
         margin-bottom: 76px;
 
         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
-
                                  var(--main-dark-theme) 98.51%),
-
                 url(/img/home/hero/hero_md@1x.jpg);
     }
 
@@ -105,9 +105,7 @@
     screen and (min-resolution: 2dppx) and (min-width: 768px) {
         .hero-img {
             background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
-
                                  var(--main-dark-theme) 98.51%),
-
                 url(/img/home/hero/hero_md@2x.jpg);
         }
     }
@@ -145,9 +143,7 @@
         left: 898px;
 
         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
-
                                  var(--main-dark-theme) 98.51%),
-
                 url(/img/home/hero/hero_lg@1x.jpg);
     }
 
@@ -156,9 +152,7 @@
         screen and (min-resolution: 2dppx) and (min-width: 1440px) {
             .hero-img {
                 background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
-
                                     var(--main-dark-theme) 98.51%),
-
                     url(/img/home/hero/hero_lg@2x.jpg);
         }
     }
