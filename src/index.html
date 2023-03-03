@@ -4,36 +4,24 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load ="partials/header.html" />
-
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <h2>hello</h2>
-      <!-- Path to images as from index.html file -->
-    </section >
-   
-    <section>
-      <h2 class="">Welcome to the epitome of luxury and comfort</h2>
-      <div>
-        <p>Our hotel rooms are elegantly designed with an eye for detail, ensuring that you have everything you need for a relaxing and rejuvenating stay.</p>
-      </div>
-      <div>
-        <p>Each room is equipped with the latest amenities, including plush bedding, high-speed Wi-Fi, flat-screen TVs, and a coffee maker to help you start your day right. Our spacious bathrooms feature luxurious toiletries and towels, so you can pamper yourself in complete privacy.
-          Each room is equipped with the latest amenities, including plush bedding, high-speed Wi-Fi, flat-screen TVs, and a coffee maker to help you start your day right. Our spacious bathrooms feature luxurious toiletries and towels, so you can pamper yourself in complete privacy.</p>
-      </div>
-      <picture>
-        <source srcset="./img/home/welcome/image_sm@1x.jpg 1x, ./img/home/welcome/image_sm@2x.jpg 2x"
-        type="img/jpg" />
-        <img class="" src="./img/home/welcome/image_sm@1x.jpg" alt="welcome_hotel" width="335" height="432"> 
-      </picture>
-
-    </section>
-    <!-- Loads the specified .html file -->
-    <!-- <load ="partials/vite-promo.html" /> -->
+    <load src="partials/common/header.html" />
+    <main>
+      <load src="partials/home/hero.html" />
+      <load src="partials/home/about-complex.html" />
+      <load src="partials/home/restaurant-details.html" />
+      <load src="partials/home/welcome-complex.html" />
+      <load src="partials/home/hotel-details.html" />
+      <load src="partials/home/location-contacts.html" />
+    </main>
+    <load src="partials/common/footer.html" />
 
     <script type="module" src="/main.js"></script>
   </body>
