@@ -1,3 +1,10 @@
+.footer-page{
+    display: flex;
+    justify-content: space-between;
+    
+    padding-top: 24px;
+}
+
 .name-logo{
 font-family: 'DM Sans';
 font-style: normal;
@@ -34,5 +41,42 @@ color: #121212;
     width: 100%;
 }
 
-/*border: 0.5px solid rgba(18, 18, 18, 0.3);
-border-radius: 68px;*/
+.socials-icon{
+    fill-opacity: 0;
+   stroke: #121212;
+   stroke-width: 1.3px;
+}
+
+.line-footer{
+  border-top: 0.5px solid rgba(18, 18, 18, 0.3);
+    width: 100%;
+    margin-top: 32px;
+    padding-bottom: 32px;
+}
+
+/*desktop*/
+.list-footer {
+    display: flex;
+    gap: 32px;
+}
+
+.link-footer{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.3;
+letter-spacing: 0.05em;
+}
+
+
+
+@media screen and (max-width:1439px){
+    .nav-footer{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .logo{
+        text-align: center;
+    }
+}
