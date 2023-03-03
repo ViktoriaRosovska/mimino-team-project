@@ -1,0 +1,58 @@
+.about-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.about-subtitle {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #484848;
+}
+.about-paragraph {
+    font-weight: 500;
+}
+.about-cust-name {
+    font-weight: 500;
+    line-height: calc(14 / 14);
+    color: #F7F7F7;
+}
+.about-rating {
+    font-size: 12px;
+    line-height: 133.02%;
+    color: #575757;
+}
+.about-number {
+    line-height: 133.02%;
+    color: var(--main-light-theme);
+}
+
+@media screen and (max-width: 767px) {
+    .about-img-item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .about-img-item:first-child {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* About-rewiev card */
+
+.about-rewiev {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 212px;
+    padding: 10px 14px;
+
+    background: var(--main-dark-theme);
+    box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+.about-cust-name {
+    margin-bottom: 7px;
+}
+    
