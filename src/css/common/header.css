@@ -148,3 +148,8 @@
     display: none;
   }
 }
+
+.social-icon {
+  fill: crimson;
+  stroke: greenyellow;
+}
