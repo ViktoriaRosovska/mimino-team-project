@@ -3,3 +3,53 @@
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+.section__hero-main {
+    position: relative;
+    height: 832px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    text-align: center;
+
+    background-color: #121212;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
+                                    #121212 98.51%),
+                    url(./img/home/about/img1_lg@1x.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title__hero-main {
+    position: absolute;
+    top: 429px;
+    left: 46px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-size: 80px;
+    line-height: 1.0;
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #F7F7F7;
+}
+
+.buttons__hero {
+    display: inline-flex;
+    justify-content: center;
+
+    color: #F7F7F7;;
+}
+
+.buttons__hero .button:not(:last-child) {
+    margin-right: 14px;
+}
+
+.text_hero-main {
+    color: #F6F6F6;
+}
