@@ -97,15 +97,11 @@
         margin-bottom: 76px;
 
         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
-<<<<<<< HEAD
-
-                                 var(--main-dark-theme) 98.51%),
-
+                                var(--main-dark-theme) 98.51%),
                 url(/img/home/hero/hero_md@1x.jpg);
-=======
-                                 #121212 98.51%),
-                url(../img/home/hero/hero_md@1x.jpg);
->>>>>>> parent of 1ff9500 (hero)
+
+                              
+
     }
 
     @media  screen and (min-device-pixel-ratio: 2) and (min-width: 768px), 
@@ -113,15 +109,11 @@
     screen and (min-resolution: 2dppx) and (min-width: 768px) {
         .hero-img {
             background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
-<<<<<<< HEAD
+
 
                                  var(--main-dark-theme) 98.51%),
-
                 url(/img/home/hero/hero_md@2x.jpg);
-=======
-                                 #121212 98.51%),
-                url(../img/home/hero/hero_md@2x.jpg);
->>>>>>> parent of 1ff9500 (hero)
+
         }
     }
 
@@ -163,15 +155,10 @@
         left: 898px;
 
         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
-<<<<<<< HEAD
 
                                  var(--main-dark-theme) 98.51%),
-
                 url(/img/home/hero/hero_lg@1x.jpg);
-=======
-                                 #121212 98.51%),
-                url(../img/home/hero/hero_lg@1x.jpg);
->>>>>>> parent of 1ff9500 (hero)
+
     }
 
     @media  screen and (min-device-pixel-ratio: 2) and (min-width: 1440px), 
@@ -179,15 +166,10 @@
         screen and (min-resolution: 2dppx) and (min-width: 1440px) {
             .hero-img {
                 background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
-<<<<<<< HEAD
 
                                     var(--main-dark-theme) 98.51%),
-
                     url(/img/home/hero/hero_lg@2x.jpg);
-=======
-                                    #121212 98.51%),
-                    url(../img/home/hero/hero_lg@2x.jpg);
->>>>>>> parent of 1ff9500 (hero)
+
         }
     }
 
