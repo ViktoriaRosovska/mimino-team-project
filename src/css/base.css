@@ -12,46 +12,44 @@
 }
 
 .section {
-  outline: 1px solid grey;
+  /* Відступи для мобільних екранів  */
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  /* Видалити перед фінальною збіркою */
+  outline: 2px dashed grey;
+  outline-offset: -2px;
+}
+@media screen and (min-width: 768px) {
+  .section {
+    /* Відступи для екранів планшетів  */
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section {
+    /* Відступи для десктопних екранів  */
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 .container {
+  min-width: 320px;
+  max-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
-  outline: 1px solid red;
   margin-left: auto;
   margin-right: auto;
-}
 
-@media screen and (max-width: 319px) {
-    .section {
-      min-width: 319px;  
-    }
-    .container {
-        width: 100%;
-    }  
-}
-
-@media screen and (min-width: 320px) and (max-width: 374px) {
-    .container {
-        min-width: 320px;
-        max-width: 374px;
-    }
-}
-
-@media screen and (min-width: 375px) and (max-width: 767px) {
-    .container {
-        width: 375px;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1439px) {
-  .container {
-      width: 768px;
-    }
+  /* Видалити перед фінальною збіркою */
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 @media screen and (min-width: 768px) {
   .container {
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -59,7 +57,7 @@
 
 @media screen and (min-width: 1440px) {
   .container {
-    width: 1440px;
+    max-width: 1440px;
   }
 }
 
@@ -86,5 +84,5 @@
   font-size: 40px;
   font-weight: var(--font-medium-500);
   line-height: 1;
-  letter-spacing: -.02em;
+  letter-spacing: -0.02em;
 }
