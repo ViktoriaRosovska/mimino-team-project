@@ -78,6 +78,16 @@
   color: var(--main-dark-theme);
 }
 
+.btn-dark {
+  color: var(--main-dark-theme);
+  border-color: var(--main-dark-theme);
+}
+
+.btn-dark:hover,
+.btn-dark:focus {
+  background-color: var(--main-dark-theme);
+  color: var(--main-light-theme);
+}
 .paragraph {
   text-transform: uppercase;
 }
