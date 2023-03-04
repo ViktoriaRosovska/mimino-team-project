@@ -27,9 +27,16 @@ color: var(--main-dark-theme);
     width: 155px;
 }
 
-.logo{
-    display: inline-block;
+.logo-footer{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+   
+    font-weight: var(--font-medium-500);
+    line-height: 1.57;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
 }
 
 /*Media Icons*/
@@ -72,7 +79,12 @@ letter-spacing: 0.05em;
 }
 
 @media screen and (min-width: 1440px){
-    .logo{
+    .logo-footer{
         text-align: center;
+    }
+
+    .footer-page{
+        padding-top: 44px;
+        align-items: center;
     }
 }
