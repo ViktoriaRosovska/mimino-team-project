@@ -1,8 +1,8 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".swiper-restaurant", {
       slidesPerView: 2,
       centeredSlides: false,
       loop: true,
-      spaceBetween: 20,
+      spaceBetween: 32,
 
       autoplay: true,
       pagination: {
@@ -15,7 +15,7 @@ var swiper = new Swiper(".mySwiper", {
       },
     });
 
-    var appendNumber = 7;
+    var appendNumber = 10;
     var prependNumber = 1;
     document
       .querySelector(".prepend-2-slides")
