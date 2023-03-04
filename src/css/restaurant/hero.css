@@ -1,13 +1,17 @@
-.restaurant-hero-container {
+.restaurant-hero-section {
+  padding-top: 40px;
+  padding-bottom: 32px;
+}
+/* .restaurant-hero-container {
   padding-top: 40px;
   padding-bottom: 64px;
   overflow: hidden;
-}
-@media screen and (min-width: 768px) {
+} */
+/* @media screen and (min-width: 768px) {
   .restaurant-hero-container {
     padding-bottom: 40px;
   }
-}
+} */
 
 .restaurant-hero-title {
   margin-bottom: 40px;
@@ -17,7 +21,7 @@
   .restaurant-hero-title {
     margin-bottom: 32px;
     font-weight: 400;
-   font-size: 80px;
+    font-size: 80px;
   }
 }
 .restaurant-hero-btn-list {
