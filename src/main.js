@@ -1,0 +1,1 @@
+import './js/swiper-restaurant.js';
