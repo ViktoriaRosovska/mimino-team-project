@@ -1,0 +1,118 @@
+.hotel-details-container {
+    position: relative;
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    background-color: var(--main-dark-theme);
+}
+
+@media screen and (min-width: 375px) {
+    .hotel-details-container {
+        width: 375px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hotel-details-container {
+        width: 768px;
+        padding: 50px 52px 38px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hotel-details-container {
+        width: 1440px;
+    }
+}
+
+.section.hotel-details-section {
+    height: 929px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+
+    text-align: center;
+
+    background-color: var(--main-dark-theme);
+}
+
+.title-hotel-details {
+    text-align: left;
+    margin-bottom: 32px;
+
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.0;
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: var(--main-light-theme);
+}
+
+.text-hotel-details {
+    text-align: left;
+    margin-bottom: 32px;
+
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3;
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: var(--main-light-theme);
+}
+
+.images-hotel-details-list {
+    display: block;
+    height: 573px;
+    margin-bottom: 81px;
+}
+
+.btns-hotel-details .btn:not(:last-child) {
+    margin-right: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .section.hotel-details-section {
+        height: 929px;
+    }
+
+    .hotel-detaild-description{
+        display: flex;
+    }
+
+    .title-hotel-details {
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 32px;
+        margin-bottom: 80px;
+
+        font-size: 68px;
+    }
+
+    .text-hotel-details {
+        display: flex;
+        width: 362px;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .section.hotel-details-section {
+        position: relative;
+        height: 800px;
+    }
+
+    .btns-hotel-details {
+        position: absolute;
+        top: 44px;
+        right: 32px;
+    }
+}

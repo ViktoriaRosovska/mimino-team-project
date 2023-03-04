@@ -17,8 +17,7 @@
   padding-bottom: 32px;
 
   /* Видалити перед фінальною збіркою */
-  outline: 2px dashed grey;
-  outline-offset: -2px;
+  border: 1px solid lightgreen;
 }
 @media screen and (min-width: 768px) {
   .section {
@@ -86,6 +85,23 @@
   background-color: var(--main-dark-theme);
   color: var(--main-light-theme);
 }
+
+@media screen and (max-width: 767px) {
+  .btn {
+      padding: 8px 18px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+      padding: 8px 24px;
+    }
+  }
+
+
+
+
+
 .paragraph {
   text-transform: uppercase;
 }
@@ -95,4 +111,19 @@
   font-weight: var(--font-medium-500);
   line-height: 1;
   letter-spacing: -0.02em;
+}
+
+.chapter {
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 1.25;
+  font-weight: var(--font-bold-700);
+  letter-spacing: -.02;
+}
+
+.subtitle {
+  line-height: 1.17;
+  font-weight: 400;
+  letter-spacing: .18em;
+  font-size: 12px;
 }

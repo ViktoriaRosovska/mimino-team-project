@@ -16,6 +16,11 @@ ul {
   list-style: none;
 }
 
+li {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   color: currentColor;
   text-decoration: none;
