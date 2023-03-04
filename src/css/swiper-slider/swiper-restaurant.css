@@ -18,7 +18,6 @@
     position: relative;
     transition-property: transform;
     display: block;
-    margin-right: 20px;
  }
  
 @media screen and (max-width: 767px) {
