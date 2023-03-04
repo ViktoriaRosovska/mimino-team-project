@@ -120,7 +120,7 @@
 }
 
 
-.menu-container .logo {
+.menu-container .header-logo {
   border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
 }
 
@@ -140,6 +140,16 @@
   line-height: 1.33;
   text-transform: uppercase;
 }
+
+.social .social-items {
+  margin-left: 20px;
+}
+
+.social .social-item {
+  width: 20px;
+  height: 20px;
+}
+
 
 /* ----mobile menu----end  */
 
