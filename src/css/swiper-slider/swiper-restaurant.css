@@ -1,36 +1,21 @@
+  
  .swiper {
     user-select: none;
-    position: relative;
     display: flex;
-    height: 100%;
-    width: 100%;
     margin-bottom: 40px;
     outline: 1px solid red;
-        
-    
+           
  }
  .swiper-slide {
     flex-shrink: 0;
-    height: 100%;
-    width: 100%;
-    /* width: 366px;
-    height: 309px; */
-    position: relative;
     transition-property: transform;
     display: block;
  }
  
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 1440px) {
    .swiper {
      
-      height: 201;
-
-   }
-}
-
-@media screen and (min-width: 768px) {
-   .swiper {
-      height: 309px;
+      width: 1458px;
       
    }
 }
@@ -72,7 +57,7 @@
  .swiper,
  .swiper-container {
      position: relative;
-     /* padding-bottom: 42px; */
+    
  }
    
  
@@ -91,6 +76,4 @@
   opacity: 1;
 }
 
- .swiper-slide {
-   /* margin: 0 !important; */
- }
+ 

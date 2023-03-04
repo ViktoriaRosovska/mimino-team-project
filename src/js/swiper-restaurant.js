@@ -24,7 +24,7 @@
       createSlider(slidesPerView);
   }
 
-  subscribe("(min-width: 1440px)", 4);
+  subscribe("(min-width: 1440px)", 5);
   subscribe("(min-width: 768px) and (max-width: 1439px)", 2);
   subscribe("(max-width: 767px)", 2);
 })();
