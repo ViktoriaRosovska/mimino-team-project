@@ -10,7 +10,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     
-    <link rel="stylesheet" href="/mimino-team-project/assets/styles-ea2a01bd.css">
+
+<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+<link rel="stylesheet" href="./css/swiper-restaurant.css" />
+
+    <script type="module" crossorigin src="/mimino-team-project/assets/swiper-restaurant-9fbcc6c7.js"></script>
+    <link rel="stylesheet" href="/mimino-team-project/assets/styles-6b5bdba1.css">
   </head>
   <body>
     <header class="section header-section">
@@ -134,162 +142,191 @@
         <button class="btn btn-dark" type="button">View a menu</button>
       </li>
     </ul>
-    <ul class="restaurant-hero-img-list">
-      <li>
-        <picture>
-          <source
-            srcset="
-              img/restaurant/about/desktop/image_lg@1x-3.jpg 1x,
-              img/restaurant/about/desktop/image_lg@2x-3.jpg 2x
-            "
-            media="(min-width:1440px)"
-          />
+   
+<div class="rest-hero-wrapper">
+  <div #swiperRef="" class="swiper mySwiper rest-hero-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide ">
+             <picture>
+  
+            <source
+              srcset="/mimino-team-project/assets/image1_lg@1x-5b4610bb.jpg 1x, /mimino-team-project/assets/image1_lg@2x-ae02ad20.jpg 2x"
+              media="(min-width:1440px)"
+            />
+  
+            <source
+              srcset="/mimino-team-project/assets/image1_md@1x-4f828424.jpg 1x, /mimino-team-project/assets/image1_md@2x-340a017a.jpg 2x"
+              media="(min-width:768px)"
+            />
+  
+            <source
+              srcset="/mimino-team-project/assets/image1_sm@2x-a31d497c.jpg 2x"
+              media="(max-width:767px)"
+            />
+            <img
+              src="/mimino-team-project/assets/image1_sm@1x-4d981e47.jpg"
+              alt="Restaurant photo 1"
+              width="436"
+              loading="lazy"
+            />
+          </picture>
+          </div>
+  
+  
+          <div class="swiper-slide">
+             <picture>
+  
+              <source
+              srcset="/mimino-team-project/assets/image2_lg@1x-97a4baa4.jpg 1x, /mimino-team-project/assets/image2_lg@2x-e6f79b37.jpg 2x"
+              media="(min-width:1440px)"
+            />
+  
+            <source
+              srcset="/mimino-team-project/assets/image2_md@1x-63ec21e3.jpg 1x, /mimino-team-project/assets/image2_md@2x-41834e55.jpg 2x"
+              media="(min-width:768px)"
+            />
+                <source
+              srcset="/mimino-team-project/assets/image2_sm@2x-186205bf.jpg 2x"
+              media="(max-width:767px)"
+            />
+            <img
+              src="/mimino-team-project/assets/image2_sm@1x-bf8392b3.jpg"
+              alt="Restaurant photo 1"
+              width="436"
+              loading="lazy"
+            />
+          </picture>
+          </div>
+          <div class="swiper-slide">
+             <picture>
+  
+              <source
+              srcset="/mimino-team-project/assets/image3_lg@1x-f152a347.jpg 1x, /mimino-team-project/assets/image3_lg@2x-1659d6a6.jpg 2x"
+              media="(min-width:1440px)"
+            />
+  
+            <source
+              srcset="/mimino-team-project/assets/image3_md@1x-89ce0550.jpg 1x, /mimino-team-project/assets/image3_md@2x-35e893db.jpg 2x"
+              media="(min-width:768px)"
+            />
+                <source
+              srcset="/mimino-team-project/assets/image3_sm@2x-fd66cc43.jpg 2x"
+              media="(max-width:767px)"
+            />
+            <img
+              src="/mimino-team-project/assets/image3_sm@1x-c14d1e37.jpg"
+              alt="Restaurant photo 1"
+              width="436"
+              loading="lazy"
+            />
+          </picture>
+          </div>
+          <div class="swiper-slide ">
+            <picture>
+              <source
+              srcset="/mimino-team-project/assets/image4_lg@1x-ff3314ee.jpg 1x, /mimino-team-project/assets/image4_lg@2x-66d7a9c5.jpg 2x"
+              media="(min-width:1440px)"
+            />
+  
+            <source
+              srcset="/mimino-team-project/assets/image4_md@1x-a68e28f9.jpg 1x, /mimino-team-project/assets/image4_md@2x-3dab6bdb.jpg 2x"
+              media="(min-width:768px)"
+            />
+                <source
+              srcset="/mimino-team-project/assets/image4_sm@2x-0614f482.jpg 2x"
+              media="(max-width:767px)"
+            />
+            <img
+              src="/mimino-team-project/assets/image4_sm@1x-5f2ae02f.jpg"
+              alt="Restaurant photo 1"
+              width="436"
+              loading="lazy"
+            />
+          </picture>
+          </div>
+          <div class="swiper-slide">
+             <picture>
+              <source
+              srcset="/mimino-team-project/assets/image5_lg@1x-b3b10698.jpg 1x, /mimino-team-project/assets/image5_lg@2x-bb47ca0d.jpg 2x"
+              media="(min-width:1440px)"
+            />
+  
+            <source
+              srcset="/mimino-team-project/assets/image5_md@1x-048cfb81.jpg 1x, /mimino-team-project/assets/image5_md@2x-eeafa63a.jpg 2x"
+              media="(min-width:768px)"
+            />
+                <source
+              srcset="/mimino-team-project/assets/image5_sm@2x-d2460556.jpg 2x"
+              media="(max-width:767px)"
+            />
+            <img
+              src="/mimino-team-project/assets/image5_sm@1x-892b2693.jpg"
+              alt="Restaurant photo 1"
+              width="436"
+              loading="lazy"
+            />
+          </picture>
+          </div>
+          <div class="swiper-slide">
+             <picture>
+              <source
+              srcset="/mimino-team-project/assets/image6_lg@1x-14652138.jpg 1x, /mimino-team-project/assets/image6_lg@2x-698220d3.jpg 2x"
+              media="(min-width:1440px)"
+            />
+  
+            <source
+              srcset="/mimino-team-project/assets/image6_md@1x-29523603.jpg 1x, /mimino-team-project/assets/image6_md@2x-d08d7b4e.jpg 2x"
+              media="(min-width:768px)"
+            />
+                <source
+              srcset="/mimino-team-project/assets/image6_sm@2x-579b5035.jpg 2x"
+              media="(max-width:767px)"
+            />
+            <img
+              src="/mimino-team-project/assets/image6_sm@1x-1970211e.jpg"
+              alt="Restaurant photo 1"
+              width="436"
+              loading="lazy"
+            />
+          </picture>
+          </div>
+  
+        </div>
+        <div class="swiper-btn">
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      </div>  
+        <p class="paragraph rest-hero-text">Whether you're in the mood for a hearty breakfast, a light lunch,<span class="rest-hero-text-italic">or a romantic dinner</span> our menu has something for everyone.</p>
+    </div>
 
-          <source
-            srcset="
-              img/restaurant/about/tablet/image_md@1x-3.jpg 1x,
-              img/restaurant/about/tablet/image_md@2x-3.jpg 2x
-            "
-            media="(min-width:768px)"
-          />
 
-          <source
-            srcset="./img/restaurant/about/mobile/image1_sm@2x.jpg 2x"
-            media="(max-width:767px)"
-          />
-          <img
-            src="./img/restaurant/about/mobile/image1_sm@1x.jpg"
-            alt="Restaurant photo 1"
-            width="436"
-            loading="lazy"
-          />
-        </picture>
-      </li>
-      <li class="restaurant-hero-list-img-item">
-        <picture>
-          <source
-            srcset="
-              img/restaurant/about/desktop/image_lg@1x-4.jpg 1x,
-              img/restaurant/about/desktop/image_lg@2x-4.jpg 2x
-            "
-            media="(min-width:1440px)"
-          />
-
-          <source
-            srcset="
-              img/restaurant/about/tablet/image_md@1x-4.jpg 1x,
-              img/restaurant/about/tablet/image_md@2x-4.jpg 2x
-            "
-            media="(min-width:768px)"
-          />
-          <source
-            srcset="./img/restaurant/about/mobile/image2_sm@2x.jpg 2x"
-            media="(max-width:767px)"
-          />
-          <img
-            src="./img/restaurant/about/mobile/image2_sm@1x.jpg"
-            alt="Restaurant photo 1"
-            width="436"
-            loading="lazy"
-          />
-        </picture>
-      </li>
-      <!-- <li>
-        <picture>
-              <source
-            srcset="./img/restaurant/about/mobile/image3_sm@2x.jpg 2x"
-            media="(max-width:767px)"
-          />
-          <img
-            src="./img/restaurant/about/mobile/image3_sm@1x.jpg"
-            alt="Restaurant photo 1"
-            width="436"
-            loading="lazy"
-          />
-        </picture>
-      </li>
-      <li>
-        <picture>
-              <source
-            srcset="./img/restaurant/about/mobile/image4_sm@2x.jpg 2x"
-            media="(max-width:767px)"
-          />
-          <img
-            src="./img/restaurant/about/mobile/image4_sm@1x.jpg"
-            alt="Restaurant photo 1"
-            width="436"
-            loading="lazy"
-          />
-        </picture>
-      </li>
-      <li>
-        <picture>
-              <source
-            srcset="./img/restaurant/about/mobile/image5_sm@2x.jpg 2x"
-            media="(max-width:767px)"
-          />
-          <img
-            src="./img/restaurant/about/mobile/image5_sm@1x.jpg"
-            alt="Restaurant photo 1"
-            width="436"
-            loading="lazy"
-          />
-        </picture>
-      </li>
-      <li>
-        <picture>
-              <source
-            srcset="./img/restaurant/about/mobile/image6_sm@2x.jpg 2x"
-            media="(max-width:767px)"
-          />
-          <img
-            src="./img/restaurant/about/mobile/image6_sm@1x.jpg"
-            alt="Restaurant photo 1"
-            width="436"
-            loading="lazy"
-          />
-        </picture>
-      </li> -->
-    </ul>
-    <p class="paragraph rest-hero-text">
-      Whether you're in the mood for a hearty breakfast, a light lunch,<span
-        class="rest-hero-text-italic"
-        >or a romantic dinner</span
-      >
-      our menu has something for everyone.
-    </p>
-  </div>
 </section>
 
-      <section class="section">
+      <section class="section about-kitchen-section">
   <div class="container">
     <h2 class="visually-hidden">About a kitchen</h2>
-    <ul>
+    <ul class="about-kitchen-img-flex">
       <li>
         <picture>
           <source
             media="(min-width: 1440px)"
             srcset="
-              ./img/restaurant/cooking/desktop/img_lg@1x.jpg 1x,
-              ./img/restaurant/cooking/desktop/img_lg@2x.jpg 2x
+              ./img/restaurant/about-kitchen/desktop/image3_lg@1x.jpg1x,
+              ./img/restaurant/about-kitchen/desktop/image3_lg@2x.jpg   2x
             "
           />
           <source
             media="(min-width: 768px)"
-            srcset="
-              ./img/restaurant/cooking/tablet/img_md@1x-2.jpg 1x,
-              ./img/restaurant/cooking/tablet/img_md@2x-2.jpg 2x
-            "
+            srcset="/mimino-team-project/assets/image3_md@1x-08413f1a.jpg 1x, /mimino-team-project/assets/image3_md@2x-9659abf1.jpg 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="
-              ./img/restaurant/cooking/mobile/img_sm@1x.jpg 1x,
-              ./img/restaurant/cooking/mobile/img_sm@2x.jpg 2x
-            "
+            srcset="/mimino-team-project/assets/image3_sm@1x-a001c885.jpg 1x, /mimino-team-project/assets/image3_sm@2x-f4369552.jpg 2x"
           />
           <img
-            src="./img/restaurant/cooking/mobile/img_sm@1x.jpg"
+            src="/mimino-team-project/assets/image3_sm@1x-a001c885.jpg"
             width="335"
             height="443"
             alt="cooking meet"
@@ -302,26 +339,20 @@
           <source
             media="(min-width: 1440px)"
             srcset="
-              ./img/restaurant/cooking/desktop/img_lg@1x-1.jpg 1x,
-              ./img/restaurant/cooking/desktop/img_lg@2x-1.jpg 2x
+              ./img/restaurant/about-kitchen/desktop/image1_lg@1x.jpg1x,
+              ./img/restaurant/about-kitchen/desktop/image1_lg@2x.jpg   2x
             "
           />
           <source
             media="(min-width: 768px)"
-            srcset="
-              ./img/restaurant/cooking/tablet/img_md@1x.jpg 1x,
-              ./img/restaurant/cooking/tablet/img_md@2x.jpg 2x
-            "
+            srcset="/mimino-team-project/assets/image1_md@1x-14da8802.jpg 1x, /mimino-team-project/assets/image1_md@2x-f475b3c1.jpg 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="
-              ./img/restaurant/cooking/mobile/img_sm@1x-1.jpg 1x,
-              ./img/restaurant/cooking/mobile/img_sm@2x-1.jpg 2x
-            "
+            srcset="/mimino-team-project/assets/image1_sm@1x-7c3b9d1e.jpg 1x, /mimino-team-project/assets/image1_sm@2x-e7ad9a17.jpg 2x"
           />
           <img
-            src="./img/restaurant/cooking/mobile/img_sm@1x-1.jpg"
+            src="/mimino-team-project/assets/image1_sm@1x-7c3b9d1e.jpg"
             width="158"
             height="149"
             alt="meat"
@@ -333,28 +364,19 @@
         <picture>
           <source
             media="(min-width: 1440px)"
-            srcset="
-              ./img/restaurant/cooking/desktop/img_lg@1x-2.jpg 1x,
-              ./img/restaurant/cooking/desktop/img_lg@2x-2.jpg 2x
-            "
+            srcset="/mimino-team-project/assets/image2_lg@1x-7e335c69.jpg 1x, /mimino-team-project/assets/image2_lg@2x-ef325509.jpg 2x"
           />
           <source
             media="(min-width: 768px)"
-            srcset="
-              ./img/restaurant/cooking/tablet/img_md@1x-1.jpg 1x,
-              ./img/restaurant/cooking/tablet/img_md@2x-1.jpg 2x
-            "
+            srcset="/mimino-team-project/assets/image2_md@1x-6b296855.jpg 1x, /mimino-team-project/assets/image2_md@2x-c79ce181.jpg 2x"
           />
           <source
             media="(max-width: 767px)"
-            srcset="
-              ./img/restaurant/cooking/mobile/img_sm@1x-2.jpg 1x,
-              ./img/restaurant/cooking/mobile/img_sm@2x-2.jpg 2x
-            "
+            srcset="/mimino-team-project/assets/image2_sm@1x-fa044847.jpg 1x, /mimino-team-project/assets/image2_sm@2x-3e52314f.jpg 2x"
           />
           <img
-            src="./img/restaurant/cooking/mobile/img_sm@1x-2.jpg"
-            width="158"
+            src="/mimino-team-project/assets/image2_sm@1x-fa044847.jpg"
+            width="157"
             height="149"
             alt="expert seasoning"
             loading="lazy"
@@ -362,19 +384,30 @@
         </picture>
       </li>
     </ul>
-    <ul>
+    <ul class="about-kitchen-text-flex">
       <li>
-        <p>
-          At Mimino, we are experts in meat preparation. Our chefs use only the
-          finest and freshest ingredients to create delicious dishes that
-          showcase the flavors of premium cuts of meat.
+        <p class="paragraph about-kitchen-paragraph">
+          At Mimino, we are experts in
+          <span class="about-kitchen-paragraph-italic">meat preparation.</span>
+          Our chefs use only the finest and freshest ingredients to
+          <span class="about-kitchen-paragraph-italic"
+            >create delicious dishes</span
+          >
+          that showcase the flavors of premium cuts of meat.
         </p>
       </li>
       <li>
-        <p>
-          Our slow-cooking process and expert seasoning bring out the best in
-          each dish, making for an unforgettable dining experience. Come taste
-          the magic of meat preparation at Mimino.
+        <p class="paragraph about-kitchen-paragraph">
+          Our
+          <span class="about-kitchen-paragraph-italic"
+            >slow-cooking process</span
+          >
+          and expert seasoning bring out the best in each dish, making for an
+          unforgettable dining experience. Come taste the magic of
+          <span class="about-kitchen-paragraph-italic"
+            >meat preparation at</span
+          >
+          Mimino.
         </p>
       </li>
     </ul>
@@ -724,5 +757,10 @@
   <div class="line-footer"></div>
 </footer>
 
+  
+  
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+ 
   </body>
 </html>
