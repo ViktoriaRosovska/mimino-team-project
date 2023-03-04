@@ -2,7 +2,7 @@ var swiper = new Swiper(".swiper-restaurant", {
       slidesPerView: 2,
       centeredSlides: false,
       loop: true,
-      spaceBetween: 32,
+      spaceBetween: 30,
 
       autoplay: true,
       pagination: {
