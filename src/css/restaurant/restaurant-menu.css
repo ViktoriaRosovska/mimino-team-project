@@ -84,8 +84,8 @@
   margin-bottom: 40px;
 }
 .rest-menu-btn {
-    min-width: 140px;
-    min-height: 40px;
+  min-width: 140px;
+  min-height: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -107,7 +107,16 @@
 }
 
 @media screen and (min-width: 768px) {
-  .rest-menu-thumb {
+  /* .rest-menu-thumb {
+    width: 515px;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+  .rest-menu-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .rest-menu-common-item {
     width: 515px;
     margin-left: auto;
     margin-right: auto;
@@ -157,11 +166,42 @@
 }
 
 @media screen and (max-width: 1439px) {
-    .rest-menu-common-item:not(:first-child) {
-        display: none;
-    }
+  .rest-menu-common-item:not(:first-child) {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    
+  .rest-menu-title {
+    margin-bottom: 100px;
+  }
+  .rest-menu-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .rest-menu-common-item {
+    margin: 0;
+  }
+  .rest-menu-slide-btn {
+    display: none;
+  }
+  .rest-menu-common-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px 74px;
+    margin-bottom: 50px;
+  }
+  .rest-menu-list {
+    margin-bottom: 0;
+  }
+  .rest-menu-drinks-item:not(:last-child) {
+    margin-bottom: 22px;
+  }
+  .rest-menu-drinks-item .rest-menu-dish {
+    margin-bottom: 0;
+  }
+  .rest-menu-btn {
+    margin-left: 135px;
+  }
 }
