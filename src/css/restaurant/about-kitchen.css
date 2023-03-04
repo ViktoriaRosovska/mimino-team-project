@@ -1,0 +1,20 @@
+.about-kitchen-section {
+  padding-bottom: 64px;
+}
+.about-kitchen-img-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+.about-kitchen-text-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.about-kitchen-paragraph {
+  letter-spacing: -0.02em;
+}
+.about-kitchen-paragraph-italic {
+  font-style: italic;
+}
