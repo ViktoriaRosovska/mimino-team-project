@@ -1,18 +1,57 @@
  .swiper {
     user-select: none;
     position: relative;
+    display: flex;
+    height: 100%;
     width: 100%;
-    height: 100%; 
-    margin-bottom: 82px;
+    margin-bottom: 40px;
+    outline: 1px solid red;
+        
+    
  }
-
  .swiper-slide {
-     background: transparent;
-     display: flex;
-     justify-content: flex-start;
-     align-items: center;
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    /* width: 366px;
+    height: 309px; */
+    position: relative;
+    transition-property: transform;
+    display: block;
+    margin-right: 20px;
  }
  
+@media screen and (max-width: 767px) {
+   .swiper {
+     
+      height: 201;
+
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .swiper {
+      height: 309px;
+      
+   }
+}
+ 
+.swiper-wrapper {
+   position: relative;
+   
+   width: 100%;
+   height: 100%; 
+   z-index: 1;
+   background-color: transparent;
+   display: flex;
+   
+  
+   transition-property: transform;
+   transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+   
+   
+}
+
   .swiper-button-next,
   .swiper-button-prev {
      position: absolute;
@@ -34,9 +73,10 @@
  .swiper,
  .swiper-container {
      position: relative;
-     padding-bottom: 42px;
+     /* padding-bottom: 42px; */
  }
-    
+   
+ 
  .swiper-button-next:after {
    content: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 15L8 8L1 0.999999' stroke='%23121212' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
      
@@ -52,4 +92,6 @@
   opacity: 1;
 }
 
- 
+ .swiper-slide {
+   /* margin: 0 !important; */
+ }
