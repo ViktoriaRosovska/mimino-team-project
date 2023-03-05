@@ -1,3 +1,7 @@
+.restaurant-container {
+    overflow: hidden;
+}
+
 .btn-thumb {
     display: flex;
     justify-content: center;

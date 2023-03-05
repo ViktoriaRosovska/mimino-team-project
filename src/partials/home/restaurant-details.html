@@ -1,40 +1,381 @@
 <section class="section">
-  <div class="container">
+  <div class="container restaurant-container">
     <h2 class="title restaurant-title">restaurant</h2>
     <p class="paragraph restaurant-paragraph">
       Relax and unwind with our delicious offerings, available any time of day.
     </p>
 
-    <div #swiperRef="" class="swiper mySwiper">
+    <div #swiperRef="" class="swiper swiper-restaurant">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img
-            src="./img/home/restaurant/mobile/image1_sm@1x.jpg 1x"
-            src="./img/home/restaurant/mobile/image1_sm@2x.jpg 2x"
-          />
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                ./img/home/restaurant/desktop/image1_lg@1x.jpg 1x,
+                ./img/home/restaurant/desktop/image1_lg@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width: 768px) and (max-width: 1439px)"
+              srcset="
+                ./img/home/restaurant/tablet/image1_md@1x.jpg 1x,
+                ./img/home/restaurant/tablet/image1_md@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./img/home/restaurant/mobile/image1_sm@1x.jpg 1x,
+                ./img/home/restaurant/mobile/image1_sm@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <img
+              src="./img/home/restaurant/desktop/image1_md@1x.jpg"
+              alt="glass"
+              width="336"
+              height="309"
+              loading="lazy"
+            />
+          </picture>
         </div>
         <div class="swiper-slide">
-          <img
-            srcset="
-              ./img/home/restaurant/mobile/image2_sm@1x.jpg 1x,
-              ./img/home/restaurant/mobile/image2_sm@2x.jpg 2x
-            "
-          />
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                ./img/home/restaurant/desktop/image2_lg@1x.jpg 1x,
+                ./img/home/restaurant/desktop/image2_lg@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width: 768px) and (max-width: 1439px)"
+              srcset="
+                ./img/home/restaurant/tablet/image2_md@1x.jpg 1x,
+                ./img/home/restaurant/tablet/image2_md@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./img/home/restaurant/mobile/image2_sm@1x.jpg 1x,
+                ./img/home/restaurant/mobile/image2_sm@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <img
+              src="./img/home/restaurant/desktop/image2_md@1x.jpg"
+              alt="cook"
+              width="336"
+              height="309"
+              loading="lazy"
+            />
+          </picture>
         </div>
         <div class="swiper-slide">
-          <img src="./img/home/restaurant/mobile/image3_sm@1x.jpg" />
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                ./img/home/restaurant/desktop/image3_lg@1x.jpg 1x,
+                ./img/home/restaurant/desktop/image3_lg@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width: 768px) and (max-width: 1439px)"
+              srcset="
+                ./img/home/restaurant/tablet/image3_md@1x.jpg 1x,
+                ./img/home/restaurant/tablet/image3_md@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./img/home/restaurant/mobile/image3_sm@1x.jpg 1x,
+                ./img/home/restaurant/mobile/image3_sm@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <img
+              src="./img/home/restaurant/desktop/image3_md@1x.jpg"
+              alt="salad"
+              width="336"
+              height="309"
+              loading="lazy"
+            />
+          </picture>
         </div>
         <div class="swiper-slide">
-          <img src="./img/home/restaurant/mobile/image4_sm@1x.jpg" />
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                ./img/home/restaurant/desktop/image4_lg@1x.jpg 1x,
+                ./img/home/restaurant/desktop/image4_lg@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width: 768px) and (max-width: 1439px)"
+              srcset="
+                ./img/home/restaurant/tablet/image4_md@1x.jpg 1x,
+                ./img/home/restaurant/tablet/image4_md@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./img/home/restaurant/mobile/image4_sm@1x.jpg 1x,
+                ./img/home/restaurant/mobile/image4_sm@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <img
+              src="./img/home/restaurant/desktop/image4_md@1x.jpg"
+              alt="dish"
+              width="336"
+              height="309"
+              loading="lazy"
+            />
+          </picture>
         </div>
         <div class="swiper-slide">
-          <img src="./img/home/restaurant/mobile/image5_sm@1x.jpg" />
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                ./img/home/restaurant/desktop/image5_lg@1x.jpg 1x,
+                ./img/home/restaurant/desktop/image5_lg@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width: 768px) and (max-width: 1439px)"
+              srcset="
+                ./img/home/restaurant/tablet/image5_md@1x.jpg 1x,
+                ./img/home/restaurant/tablet/image5_md@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./img/home/restaurant/mobile/image5_sm@1x.jpg 1x,
+                ./img/home/restaurant/mobile/image5_sm@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <img
+              src="./img/home/restaurant/desktop/image5_md@1x.jpg"
+              alt="potato"
+              width="336"
+              height="309"
+              loading="lazy"
+            />
+          </picture>
         </div>
         <div class="swiper-slide">
-          <img src="./img/home/restaurant/mobile/image6_sm@1x.jpg" />
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                ./img/home/restaurant/desktop/image6_lg@1x.jpg 1x,
+                ./img/home/restaurant/desktop/image6_lg@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width: 768px) and (max-width: 1439px)"
+              srcset="
+                ./img/home/restaurant/tablet/image6_md@1x.jpg 1x,
+                ./img/home/restaurant/tablet/image6_md@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./img/home/restaurant/mobile/image6_sm@1x.jpg 1x,
+                ./img/home/restaurant/mobile/image6_sm@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <img
+              src="./img/home/restaurant/desktop/image6_md@1x.jpg"
+              alt="alcohol"
+              width="336"
+              height="309"
+              loading="lazy"
+            />
+          </picture>
         </div>
         <div class="swiper-slide">
-          <img src="./img/home/restaurant/mobile/image7_sm@1x.jpg" />
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                ./img/home/restaurant/desktop/image7_lg@1x.jpg 1x,
+                ./img/home/restaurant/desktop/image7_lg@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width: 768px) and (max-width: 1439px)"
+              srcset="
+                ./img/home/restaurant/tablet/image7_md@1x.jpg 1x,
+                ./img/home/restaurant/tablet/image7_md@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./img/home/restaurant/mobile/image7_sm@1x.jpg 1x,
+                ./img/home/restaurant/mobile/image7_sm@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <img
+              src="./img/home/restaurant/desktop/image7_md@1x.jpg"
+              alt="meat"
+              width="336"
+              height="309"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                ./img/home/restaurant/desktop/image8_lg@1x.jpg 1x,
+                ./img/home/restaurant/desktop/image8_lg@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width: 768px) and (max-width: 1439px)"
+              srcset="
+                ./img/home/restaurant/tablet/image8_md@1x.jpg 1x,
+                ./img/home/restaurant/tablet/image8_md@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./img/home/restaurant/mobile/image8_sm@1x.jpg 1x,
+                ./img/home/restaurant/mobile/image8_sm@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <img
+              src="./img/home/restaurant/desktop/image8_md@1x.jpg"
+              alt="bottle"
+              width="336"
+              height="309"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                ./img/home/restaurant/desktop/image9_lg@1x.jpg 1x,
+                ./img/home/restaurant/desktop/image9_lg@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width: 768px) and (max-width: 1439px)"
+              srcset="
+                ./img/home/restaurant/tablet/image9_md@1x.jpg 1x,
+                ./img/home/restaurant/tablet/image9_md@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./img/home/restaurant/mobile/image9_sm@1x.jpg 1x,
+                ./img/home/restaurant/mobile/image9_sm@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <img
+              src="./img/home/restaurant/tablet/image9_md@1x.jpg"
+              alt="fish"
+              width="336"
+              height="309"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              media="(min-width: 1440px)"
+              srcset="
+                ./img/home/restaurant/desktop/image10_lg@1x.jpg 1x,
+                ./img/home/restaurant/desktop/image10_lg@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width: 768px) and (max-width: 1439px)"
+              srcset="
+                ./img/home/restaurant/tablet/image10_md@1x.jpg 1x,
+                ./img/home/restaurant/tablet/image10_md@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ./img/home/restaurant/mobile/image10_sm@1x.jpg 1x,
+                ./img/home/restaurant/mobile/image10_sm@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+
+            <img
+              src="./img/home/restaurant/tablet/image10_md@1x.jpg"
+              alt="sandwich"
+              width="336"
+              height="309"
+              loading="lazy"
+            />
+          </picture>
         </div>
       </div>
       <div class="swiper-btn">
