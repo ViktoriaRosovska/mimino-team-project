@@ -151,7 +151,7 @@
 }
 
 
-/* ----mobile menu----end  */
+/* ----mobile menu----end 
 
 @media screen and (max-width: 1439.98px) {
   .header-nav,
@@ -185,7 +185,7 @@
   .menu-toggle {
     top: 23px;
     left: 32px;
-    background-image: url(../img/svg/menu-tab.svg);
+    background-image: url(/img/svg/menu-tab.svg);
     width: 32px;
     height: 32px;
   }
@@ -202,4 +202,4 @@
   .menu-toggle {
     display: none;
   }
-}
+} */
