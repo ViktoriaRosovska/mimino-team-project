@@ -1,4 +1,17 @@
 /* ----mobile menu----end  */
+.menu-toggle {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    display: flex;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-image: url(/img/svg/menu-mob.svg);
+    width: 28px;
+    height: 28px;
+}
 
 @media screen and (max-width: 1439.98px) {
 
@@ -37,9 +50,6 @@
     .menu-toggle {
         top: 23px;
         left: 32px;
-        background-image: url(menu-tab.svg);
-        width: 32px;
-        height: 32px;
     }
 }
 
