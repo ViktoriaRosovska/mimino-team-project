@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+     <!-- Luxury room -->
+     <section class="container rooms-container">
+        <div>
+               <picture>
+                <source
+                    media="(min-width:1200px)"
+                    srcset="
+                    ./img/hotel/2room/img_lg@1x.jpg 1x,
+                    ./img/hotel/2room/img_lg@2x.jpg 2x"
+                    width="539px"
+                    height="762px"
+                />
+                <source
+                    media="(min-width:768px)"
+                    srcset="
+                     ./img/hotel/2room/img_md@1x.jpg 1x,
+                     ./img/hotel/2room/img_md@2x.jpg 2x
+                    "
+                    width="331px"
+                    height="468px"
+                />
+                <img
+                    class="mb-img-lux"
+                    srcset="
+                     ./img/hotel/2room/img_sm@1x.jpg 1x,
+                     ./img/hotel/2room/img_sm@2x.jpg 2x
+                    "
+                    src="./img/hotel/2room/img_sm@1x.jpg"
+                    width="335px"
+                    height="468px"
+                    alt="image"
+                    loading="lazy"
+                />
+        
+        <ul class="lux-room-list">   
+          <li>
+            <div>
+              <picture>
+                  <source
+                      media="(min-width:1200px)"
+                      srcset="
+                      ./img/hotel/2room/img_lg@1x-1.jpg 1x,
+                      ./img/hotel/2room/img_lg@2x-1.jpg 2x"
+                      width="387px"
+                      height="510px"
+                  />
+                  <source
+                      media="(min-width:768px)"
+                      srcset="
+                       ./img/hotel/2room/img_md@1x-2.jpg 1x,
+                       ./img/hotel/2room/img_md@2x-2.jpg 2x
+                      "
+                      width="223px"
+                      height="261px"
+                  />
+                  <img
+                      srcset="
+                       ./img/hotel/2room/img_sm@1x-1.jpg 1x,
+                       ./img/hotel/2room/img_sm@2x-1.jpg 2x
+                      "
+                      src="./img/hotel/2room/img_sm@1x.jpg"
+                      width="158px"
+                      height="148px"
+                      alt="image"
+                      loading="lazy"/>
+            </div>
+          </li>
+          <li>
+            <div>
+                  <picture>
+                    <source
+                        media="(min-width:1200px)"
+                        srcset="
+                        ./img/hotel/2room/img_lg@1x-2.jpg 1x,
+                        ./img/hotel/2room/img_lg@2x-2.jpg 2x"
+                        width="387px"
+                        height="395px" />
+                    <source
+                        media="(min-width:768px)"
+                        srcset="
+                         ./img/hotel/2room/img_md@1x-1.jpg 1x,
+                         ./img/hotel/2room/img_md@2x-1.jpg 2x
+                        "
+                        width="341px"
+                        height="175px"
+                     />
+                    <img
+                        srcset="
+                         ./img/hotel/2room/img_sm@1x-2.jpg 1x,
+                         ./img/hotel/2room/img_sm@2x-2.jpg 2x
+                        "
+                        src="./img/hotel/2room/img_sm@1x.jpg"
+                        width="158px"
+                        height="148px"
+                        alt="image"
+                        loading="lazy"
+                      />
+            </div>
+          </li>
+        </ul>
+      </div>
+        <h2 class="rooms-title">DOUBLE LUXURY ROOM</h2>
+        <ul class="rooms-paragraph-list">
+          <li>
+            <p class="rooms-paragraph-one">Experience luxury in our Double Luxury Room at Mimino Hotel.
+              This spacious room features a comfortable bed, private bathroom,
+              flat-screen TV, and high-speed Wi-Fi. Climate control, blackout curtains,
+              and soundproofing ensure a peaceful night's sleep.
+            </p>
+          </li>
+          <li>
+            <p class="rooms-paragraph-two">Relax after a busy day at the writing desk or armchair.
+               Book now for a convenient and comfortable stay.
+            </p>
+          </li>
+        </ul>
+        <ul class="rooms-btn-list">
+          <li>
+            <button tybe="button" class="btn-room">More details</button>
+          </li>
+            <li><button tybe="button" class="btn-room">View prices</button></li>
+        </ul>
+     </section>
+    <load src="partials/common/header.html" />
+    <main>
+      <load src="partials/hotel/hero.html" />
+      <load src="partials/hotel/double-room.html" />
+      <load src="partials/hotel/triple-room.html" />
+      <load src="partials/hotel/four-room.html" />
+    </main>
+    <load src="partials/common/footer.html" />
+  </body>
+</html>

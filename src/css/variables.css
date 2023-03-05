@@ -1,0 +1,27 @@
+:root {
+  --main-dark-theme: #121212;
+  --main-light-theme: #F7F7F7;
+  --main-white-color: #FFFFFF;
+  /* D8D7D7 50% opacity */
+  --main-dark-grey: color: rgba(216, 215, 215, 0.5);
+  --main-subtitle-color: #484848;
+
+  --font-medium-500: 500;
+  --font-bold-700: 700;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.286;
+  font-weight: 400;
+
+  color: var(--main-dark-theme);
+  background-color: var(--main-light-theme);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}

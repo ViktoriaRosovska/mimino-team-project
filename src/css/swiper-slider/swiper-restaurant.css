@@ -1,0 +1,98 @@
+
+ .swiper {
+   position: relative;
+
+    user-select: none;
+    display: flex;
+
+    margin-bottom: 40px;
+    /* outline: 1px solid red; */
+           
+ }
+ .swiper-slide {
+    flex-shrink: 0;
+
+    transition-property: transform;
+    display: block;
+ }
+
+ 
+@media screen and (min-width: 1440px) {
+   .swiper {
+
+      width: 1458px;
+
+   }
+}
+ 
+ .swiper-wrapper {
+   position: relative;
+   padding-bottom: 42px;
+   width: 100%;
+   height: 100%; 
+   z-index: 1;
+   background-color: transparent;
+   display: flex;
+   
+  
+   transition-property: transform;
+   transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+   
+
+}
+
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    user-select: none;
+    opacity: .3;
+    top: var(--swiper-navigation-top-offset, 50%);
+    margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color, var(--swiper-theme-color));
+ }
+
+    .swiper-button-next {
+    left: 44px;
+
+ }
+ .swiper-button-next:after {
+   content: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 15L8 8L1 0.999999' stroke='%23121212' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    margin-top: 218px;
+   
+ }
+ .swiper-button-prev:after {
+    content: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 15L0.999999 8L8 0.999999' stroke='%23121212' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    margin-top: 218px;
+    margin-right: 20px; 
+   }
+   @media screen and (max-width: 767px) {
+      
+      
+   }
+   @media screen and (min-width: 768px) {
+      .swiper-button-next:after {
+         margin-top: 330px;
+         margin-left: 82px;
+      }
+      .swiper-button-prev:after {
+         margin-top: 330px;
+         margin-right: 0;
+      }
+   }
+ 
+ 
+ 
+
+.swiper-button-next:hover,
+.swiper-button-next:focus,
+.swiper-button-prev:hover,
+.swiper-button-prev:focus {
+  opacity: 1;
+}
+
+ 

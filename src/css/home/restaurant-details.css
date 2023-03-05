@@ -1,0 +1,62 @@
+.restaurant-container {
+    overflow: hidden;
+}
+
+.btn-thumb {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+@media screen and (max-width: 767px) {
+.restaurant-title {
+    margin-bottom: 24px;
+}
+.restaurant-paragraph {
+    margin-bottom: 32px;
+}
+.title-thumb {
+    width: 239px;
+}
+.swiper-restaurant {
+    margin-bottom: 40px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    
+    .title-thumb {
+        margin-bottom: 80px;
+    }
+     
+    .swiper-restaurant {
+      margin-bottom: 108px;
+        }
+}
+@media screen and (min-width: 768px) {
+    .title-thumb {
+            display: flex;
+            align-items: center;
+            
+} 
+     .restaurant-paragraph {
+        width: 221px;
+    }
+    .restaurant-title {
+       margin-right: 32px;
+        
+    }
+}
+  @media screen and (min-width: 1440px) {
+    .title-thumb {
+      margin-bottom: 125px;
+    }
+    .restaurant-container {
+        position: relative;
+    }
+    .btn-thumb {
+        position: absolute;
+        top: 0;
+        right: 32px;
+    }
+   
+  }

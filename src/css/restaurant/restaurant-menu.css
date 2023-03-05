@@ -1,0 +1,206 @@
+.rest-menu-section {
+  padding-bottom: 64px;
+  background-color: var(--main-dark-theme);
+  color: var(--main-light-theme);
+  letter-spacing: -0.02em;
+}
+.rest-menu-title {
+  margin-bottom: 36px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: calc(40 / 32);
+  text-transform: uppercase;
+  text-align: center;
+}
+.rest-menu-subtitle {
+  margin-bottom: 32px;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.rest-menu-dish {
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+}
+.rest-menu-descr {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: calc(14 / 10);
+  letter-spacing: 0.18em;
+  color: rgba(216, 215, 215, 0.5);
+}
+.rest-menu-weight {
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  color: #d8d7d7;
+}
+.rest-menu-price {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+}
+.rest-menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.rest-menu-item:not(:last-child) {
+  margin-bottom: 14px;
+}
+.rest-menu-item:first-child .rest-menu-dish-wrapper {
+  max-width: 233px;
+}
+.rest-menu-item:nth-child(2) .rest-menu-dish-wrapper {
+  max-width: 188px;
+}
+.rest-menu-item:nth-child(3) .rest-menu-dish-wrapper {
+  max-width: 211px;
+}
+.rest-menu-item:nth-child(4) .rest-menu-dish-wrapper {
+  max-width: 199px;
+}
+.rest-menu-item:nth-child(5) .rest-menu-dish-wrapper {
+  max-width: 210px;
+}
+
+.rest-menu-list {
+  margin-bottom: 38px;
+}
+.rest-menu-slide-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+.rest-menu-btn {
+  min-width: 140px;
+  min-height: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rest-menu-price-wrapper {
+  text-align: end;
+}
+
+.rest-menu-dish::before {
+  content: ' ';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4px;
+  height: 4px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background-color: var(--main-light-theme);
+}
+
+@media screen and (min-width: 768px) {
+  /* .rest-menu-thumb {
+    width: 515px;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+  .rest-menu-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .rest-menu-common-item {
+    width: 515px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rest-menu-title {
+    margin-bottom: 64px;
+    font-size: 40px;
+    line-height: calc(44 / 40);
+  }
+  .rest-menu-subtitle {
+    font-size: 24px;
+  }
+  .rest-menu-dish {
+    padding-right: 11px;
+    font-size: 18px;
+    line-height: calc(24 / 18);
+  }
+  .rest-menu-descr {
+    font-size: 12px;
+    line-height: calc(18 / 12);
+  }
+  .rest-menu-weight {
+    font-size: 14px;
+    line-height: calc(18 / 14);
+  }
+  .rest-menu-price {
+    font-size: 18px;
+    line-height: calc(24 / 18);
+  }
+  .rest-menu-dish::before {
+    width: 5px;
+    height: 5px;
+    margin-right: 11px;
+  }
+  .rest-menu-item:not(:first-child) .rest-menu-dish-wrapper {
+    max-width: 325px;
+  }
+  .rest-menu-item:first-child .rest-menu-dish-wrapper {
+    max-width: 345px;
+  }
+  .rest-menu-list {
+    margin-bottom: 32px;
+  }
+  .rest-menu-btn {
+    margin-left: 95px;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .rest-menu-common-item:not(:first-child) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .rest-menu-title {
+    margin-bottom: 100px;
+  }
+  .rest-menu-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .rest-menu-common-item {
+    margin: 0;
+  }
+  .rest-menu-slide-btn {
+    display: none;
+  }
+  .rest-menu-common-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px 74px;
+    margin-bottom: 50px;
+  }
+  .rest-menu-list {
+    margin-bottom: 0;
+  }
+  .rest-menu-drinks-item:not(:last-child) {
+    margin-bottom: 22px;
+  }
+  .rest-menu-drinks-item .rest-menu-dish {
+    margin-bottom: 0;
+  }
+  .rest-menu-btn {
+    margin-left: 135px;
+  }
+}

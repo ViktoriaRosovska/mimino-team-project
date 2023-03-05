@@ -1,0 +1,28 @@
+.restaurant-hero-section {
+  padding-top: 40px;
+  padding-bottom: 32px;
+}
+
+.rest-hero-text {
+  margin-top: 40px;
+
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 0.05em;
+
+  color: var(--main-dark-theme);
+}
+@media screen and (min-width: 768px) {
+  .rest-hero-text {
+    width: 338px;
+  }
+}
+@media screen and (min-width: 1440px){
+   .rest-hero-text {
+    margin-top: 204px;
+    width: 338px;
+  }
+}
+.rest-hero-text-italic {
+  font-style: italic;
+}

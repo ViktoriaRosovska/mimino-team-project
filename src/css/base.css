@@ -1,0 +1,153 @@
+.visually-hidden {
+  position: absolute;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  height: 1px;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  width: 1px;
+  overflow: hidden;
+}
+
+.section {
+  /* Відступи для мобільних екранів  */
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  /* Видалити перед фінальною збіркою */
+  border: 1px solid lightgreen;
+}
+@media screen and (min-width: 768px) {
+  .section {
+    /* Відступи для екранів планшетів  */
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section {
+    /* Відступи для десктопних екранів  */
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Видалити перед фінальною збіркою */
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
+.btn {
+  padding: 8px 24px;
+  border-radius: 32px;
+  background-color: transparent;
+  border: 0.8px solid var(--main-light-theme);
+  color: var(--main-light-theme);
+  text-transform: uppercase;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--main-white-color);
+  color: var(--main-dark-theme);
+}
+
+.btn-dark {
+  color: var(--main-dark-theme);
+  border-color: var(--main-dark-theme);
+}
+
+.btn-dark:hover,
+.btn-dark:focus {
+  background-color: var(--main-dark-theme);
+  color: var(--main-light-theme);
+}
+
+@media screen and (max-width: 767px) {
+  .btn {
+      padding: 8px 18px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+      padding: 8px 24px;
+    }
+  }
+
+
+
+
+
+.paragraph {
+  text-transform: uppercase;
+  font-weight: var(--font-medium-500);
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+.title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: var(--font-medium-500);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+  font-size: 40px;
+  padding-bottom: 24px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .title {
+      font-size: 63px;
+    }
+ 
+}
+
+@media screen and (min-width: 1440px) {
+  .title {
+    font-size: 68px;
+  }
+
+}
+.chapter {
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 1.25;
+  font-weight: var(--font-bold-700);
+  letter-spacing: -.02;
+}
+
+.subtitle {
+  line-height: 1.17;
+  font-weight: 400;
+  letter-spacing: .18em;
+  font-size: 12px;
+}
