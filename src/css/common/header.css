@@ -77,8 +77,8 @@
 }
 
 .social-icon {
-  stroke: var(--main-light-theme);
   fill: none;
+  stroke: var(--main-light-theme);
 }
 
 .menu-toggle {
