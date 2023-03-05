@@ -2,22 +2,74 @@
     text-transform: uppercase;
 }
 
-.welcome h2 {
+.welcome-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 36px;
     margin-bottom: 32px;
-    
+
+}
+
+.welcome-text:not :last-child {
+    margin-bottom: 32px;
+}
+
+.welcome-text:first-child {
+    max-width: 306px;
 }
 
 .about-hotel {
+
+    margin-right: 27px;
     margin-bottom: 32px;
 }
 
 .about-room {
     margin-bottom: 32px;
-
-    margin-left: 29px;
-
+    margin-right: 29px;
 }
 
 .welcome-pic {
     margin-bottom: 64px;
+}
+
+@media screen and (min-width:768px) {
+    .welcome h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .welcome-text {
+        display: flex
+    }
+
+    .about-hotel {}
+
+}
+
+@media screen and (min-width:1440px) {
+    .welcome {
+        width: 599px;
+
+    }
+    .welcome-hotel {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+      
+        
+    }
+
+    .welcome {}
+    .welcome-text {
+        display: block;
+        
+    }
+
+    .welcome-title {
+        margin-bottom: 310px;
+    }
+    .about-pic {
+        
+    }
 }
