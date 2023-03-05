@@ -48,17 +48,28 @@
 }
 
 @media screen and (min-width:1440px) {
+    .welcome {
+        width: 599px;
+
+    }
     .welcome-hotel {
         display: flex;
-        flex-direction: row-reverse
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+      
+        
     }
 
     .welcome {}
     .welcome-text {
         display: block;
+        
     }
 
     .welcome-title {
         margin-bottom: 310px;
+    }
+    .about-pic {
+        
     }
 }
