@@ -20,7 +20,7 @@
   text-transform: uppercase;
 }
 
-.site-nav-link.curent::after {
+.site-nav-link::after {
   content: '';
   position: absolute;
   top: 47px;
@@ -31,6 +31,10 @@
   border-radius: 50%;
   background-color: var(--main-light-theme);
   transform: translateX(-50%);
+}
+
+.site-nav-link::after {
+  display: none;
 }
 
 .header-logo {
@@ -90,8 +94,6 @@
   background-image: url(/img/svg/menu-mob.svg);
   cursor: pointer;
 }
-
-
 
 @media screen and (max-width: 1439.98px) {
   .header-nav,
