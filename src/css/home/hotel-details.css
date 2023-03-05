@@ -33,6 +33,8 @@
 .swiper-hotel {
     width: 100%;
     height: 607px;
+    margin-left: auto;
+    margin-right: auto;
     /* margin: 20px auto; */
 }
 
