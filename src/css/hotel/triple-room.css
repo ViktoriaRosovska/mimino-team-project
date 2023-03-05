@@ -10,7 +10,7 @@
 @media screen and (min-width: 768px) {
     .hotel-triple-room-picture {
         grid-column-gap: 32px; 
-        grid-row-gap: 32;
+        grid-row-gap: 32px;
     }
 }
 @media screen and (min-width: 1440px) {
@@ -156,20 +156,8 @@
         margin-bottom: 40px;
     }
 }
-.hotel-triple-room-inform {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: var(--main-dark-theme);
-}
-@media screen and (min-width: 768px) {
-    .hotel-triple-room-inform {
-    font-size: 18px;
-    line-height: 24px;
-    }
+.hotel-triple-room .paragraph {
+max-width: 335px;
 }
 .hotel-triple-room-name {
     display: block;
@@ -182,8 +170,31 @@
         margin-top: 40px;
 }
 }
+@media screen and (min-width: 1440px) {
+    .hotel-triple-room-name {
+        margin-top: 0px;
+}
+}
 .hotel-triple-room-btn {
     display: flex;
     gap: 12px;
    
+}
+@media screen and (min-width: 1440px) { 
+    .hotel-triple-room-btn {
+        display: flex;
+        gap: 14px;
+        min-width: 332px;
+       
+    }
+}
+
+@media screen and (min-width: 1440px) {
+.hotel-triple-room-description {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 358px;
+    margin-top: 50px;
+
+}
 }
