@@ -19,51 +19,6 @@
   grid-row: 2/3;
 }
 
-@media screen and (min-width: 768px) {
-  .four-room-list {
-    gap: 32px;
-  }
-  .four-room-item:first-child {
-    grid-column: 2/3;
-    grid-row: 1/3;
-  }
-
-  .four-room-item:nth-child(2) {
-    display: grid;
-    justify-items: end;
-    grid-column: 1/2;
-    grid-row: 1/2;
-  }
-
-  .four-room-item:last-child {
-    grid-column: 1/2;
-    grid-row: 2/3;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .four-room-list {
-    grid-template-columns: auto, auto auto;
-    grid-template-rows: auto;
-    align-items: center;
-
-  }
-  .four-room-item:first-child {
-    grid-column: 2/3;
-    grid-row: 1/2;
-  }
-
-  .four-room-item:nth-child(2) {
-    grid-column: 3/4;
-    grid-row: 1/2;
-  }
-
-  .four-room-item:last-child {
-    grid-column: 1/2;
-    grid-row: 1/2;
-  }
-}
-
 /* Text styles and others */
 .four-room-list {
   margin-bottom: 32px;
@@ -84,6 +39,7 @@
 }
 .four-room-btn {
   letter-spacing: -0.02em;
+  line-height: 1.28;
 }
 .four-room-btn-list {
   display: flex;
@@ -91,12 +47,32 @@
 }
 
 @media screen and (min-width: 768px) {
-  
+  .four-room-list {
+    gap: 32px;
+    margin-bottom: 40px;
+  }
+
+  .four-room-item:first-child {
+    grid-column: 2/3;
+    grid-row: 1/3;
+  }
+
+  .four-room-item:nth-child(2) {
+    display: grid;
+    justify-items: end;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .four-room-item:last-child {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
   .four-room-title {
     font-size: 40px;
   }
   .four-room-paragraph {
-    max-width: 475px;
+    max-width: 490px;
     margin-bottom: 40px;
     font-weight: 400;
     font-size: 18px;
@@ -105,5 +81,38 @@
   .four-room-btn-list {
     justify-content: flex-end;
   }
+  .four-room-btn {
+    line-height: 1.71;
+  }
 }
 
+@media screen and (min-width: 1440px) {
+  .four-room-list {
+    grid-template-columns: auto, auto auto;
+    grid-template-rows: auto;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .four-room-item:first-child {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .four-room-item:nth-child(2) {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  .four-room-item:last-child {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .four-room-title {
+    margin-bottom: 40px;
+  }
+  .four-room-thumb {
+    display: flex;
+    justify-content: space-between;
+  }
+}
