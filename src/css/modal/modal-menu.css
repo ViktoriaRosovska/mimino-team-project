@@ -37,7 +37,7 @@
     .menu-toggle {
         top: 23px;
         left: 32px;
-        background-image: url(../../img/svg/menu-tab.svg);
+        background-image: url(menu-tab.svg);
         width: 32px;
         height: 32px;
     }
