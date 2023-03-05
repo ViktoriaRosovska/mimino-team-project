@@ -1,0 +1,203 @@
+.about-section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+/* About common text styles */
+.about-subtitle {
+  margin-bottom: 18px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #484848;
+}
+
+.about-paragraph {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.about-paragraph:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+.about-cust-name {
+  font-weight: 500;
+  line-height: calc(14 / 14);
+  color: #f7f7f7;
+}
+
+.about-rating {
+  font-size: 12px;
+  line-height: 133.02%;
+  color: #575757;
+}
+
+.about-number {
+  line-height: 133.02%;
+  color: var(--main-light-theme);
+}
+
+/* Close media */
+@media screen and (max-width: 767px) {
+  .about-img-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .about-img-item:first-child {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .about-img-list {
+    margin-bottom: 32px;
+  }
+
+  .about-pic {
+    display: block;
+    margin-bottom: 54px;
+  }
+}
+
+/* About-up-side */
+.about-up-side {
+  margin-bottom: 64px;
+}
+
+.about-descr {
+  max-width: 335px;
+}
+
+/* About-bottom-side */
+.about-business-descr {
+  max-width: 263px;
+}
+
+.about-bottom-side {
+  position: relative;
+}
+
+.about-bottom-side .about-rewiev {
+  position: absolute;
+  bottom: 59%;
+  left: 0;
+}
+
+/* About-rewiev card */
+.about-rewiev {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 212px;
+  padding: 10px 14px;
+
+  background: var(--main-dark-theme);
+  box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.about-cust-name {
+  margin-bottom: 7px;
+}
+
+.about-img-up {
+  position: relative;
+}
+
+.about-img-up .about-rewiev {
+  position: absolute;
+  bottom: 134px;
+  right: 0;
+}
+
+/* About business container */
+.about-business-container {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .about-img-item:nth-child(2) {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+  }
+  .about-img-up .about-rewiev {
+    bottom: 399px;
+    right: 122px;
+  }
+  .about-descr .about-paragraph {
+    font-size: 18px;
+    line-height: calc(24 / 18);
+  }
+  .about-descr {
+    max-width: 472px;
+  }
+  .about-up-side {
+    margin-bottom: 80px;
+  }
+  .about-pic .about-image {
+    margin-left: auto;
+  }
+  .about-bottom-side .about-rewiev {
+    bottom: 477px;
+    left: 67px;
+  }
+  .about-business-container {
+    flex-direction: row;
+  }
+  .about-business-container {
+    gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .about-up-side {
+    display: flex;
+    gap: 107px;
+    align-items: center;
+  }
+  .about-descr {
+    max-width: 530px;
+  }
+  .about-img-up {
+    width: 803px;
+  }
+  .about-up-side {
+    margin-bottom: 100px;
+  }
+  .about-img-up .about-rewiev {
+      bottom: 399px;
+      right: 155px;
+  }
+  .about-bottom-side {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 87px;
+    margin-left: auto;
+  }
+  .about-business-container {
+    gap: 54px;
+    padding-top: 127px;
+    padding-bottom: 56px;
+  }
+  .about-bottom-side .about-rewiev {
+      bottom: 128px;
+      left: 738px;
+  }
+}

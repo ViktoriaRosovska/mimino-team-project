@@ -1,0 +1,6 @@
+.modal-book-table {
+    width: 335px;
+    height: 528px;
+    background-color: black;
+    color: var(--main-white-color);
+}
