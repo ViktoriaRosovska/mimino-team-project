@@ -70,6 +70,10 @@
   height: 100%;
 }
 
+.social-icon {
+  fill: var(--main-light-theme);
+}
+
 .menu-toggle {
   position: absolute;
   top: 25px;
@@ -79,7 +83,7 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
-  background-image: url(../img/svg/menu-mob.svg);
+  background-image: url(/img/svg/menu-mob.svg);
   width: 28px;
   height: 28px;
 }
@@ -114,7 +118,7 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
-  background-image: url(../img/svg/x-close.svg);
+  background-image: url(/img/svg/x-close.svg);
   width: 32px;
   height: 32px;
 }
@@ -151,7 +155,7 @@
 }
 
 
-/* ----mobile menu----end 
+/* ----mobile menu----end  */
 
 @media screen and (max-width: 1439.98px) {
   .header-nav,
@@ -202,4 +206,4 @@
   .menu-toggle {
     display: none;
   }
-} */
+}
