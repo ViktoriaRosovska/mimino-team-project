@@ -115,4 +115,7 @@
     display: flex;
     justify-content: space-between;
   }
+    .four-room-btn {
+      line-height: 1.33;
+    }
 }
