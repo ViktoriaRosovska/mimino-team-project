@@ -5,12 +5,11 @@
 
 
 .section.hero-section {
-
     position: relative;
     height: 832px;
     margin-right: auto;
     margin-left: auto;
-    padding: 0;
+    padding: 40px 0 0;
 
 
     text-align: center;
@@ -92,7 +91,8 @@
 
 @media screen and (min-width: 768px) {
     .section.hero-section {
-        height: 946px;        
+        height: 945px;    
+        padding-top: 50px;    
     }
     .text-hero:nth-child() {
       margin-bottom: 0px;

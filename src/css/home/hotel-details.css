@@ -22,6 +22,7 @@
         margin-bottom: 80px;
     }
 }
+
 .text-hotel-details {
     text-align: left;
     margin-bottom: 32px;
@@ -29,19 +30,40 @@
     color: var(--main-light-theme);
 }
 
-.images-hotel-details-list {
+.swiper-hotel {
+    width: 100%;
+    height: 607px;
+    /* margin: 20px auto; */
+}
+
+.swiper-wrapper.images-hotel-details-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
     margin-bottom: 82px;
 }
+
+.swiper-slide.hotel-card {
+    text-align: center;
+    background: transparant;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide .hotel-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 
 .btns-hotel-details .btn:not(:last-child) {
     margin-right: 12px;
 }
 
 @media screen and (min-width: 768px) {
-       .title-hotel-details {
+    .title-hotel-details {
         margin-bottom: 80px;
     }
 
