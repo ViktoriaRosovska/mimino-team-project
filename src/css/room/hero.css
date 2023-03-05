@@ -1,0 +1,38 @@
+.hero-room-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: calc(40 / 40);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #121212;
+}
+.accent-title {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: calc(40 / 40);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #121212;
+}
+.room-btn {
+  text-transform: uppercase;
+  width: 117px;
+  height: 34px;
+
+  border: 0.8px solid #121212;
+  border-radius: 32px;
+}
+.room-footer {
+}
+.room-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(18 / 14);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: #121212;
+}
