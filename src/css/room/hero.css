@@ -1,4 +1,25 @@
+.hero-room {
+  max-width: 375px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media only screen and (min-width: 768px) {
+  .hero-room {
+    max-width: 768px;
+  }
+}
+
+.hero-room-top {
+  margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+  .hero-room-top {
+    margin-bottom: 28px;
+  }
+}
+
 .hero-room-title {
+  width: 270px;
   font-weight: 400;
   font-size: 40px;
   line-height: calc(40 / 40);
@@ -6,33 +27,34 @@
   text-transform: uppercase;
 
   color: #121212;
+  margin-bottom: 24px;
 }
-.accent-title {
+@media only screen and (min-width: 768px) {
+  .hero-room-title {
+    width: 406px;
+    margin-bottom: 18px;
+    font-size: 60px;
+  }
+}
+.hero-room-cursive {
   font-style: italic;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: calc(40 / 40);
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
+}
 
-  color: #121212;
-}
-.room-btn {
-  text-transform: uppercase;
-  width: 117px;
-  height: 34px;
+.hero-room-slider {
+  width: 520px;
+  height: 429px;
 
-  border: 0.8px solid #121212;
-  border-radius: 32px;
+  background-color: #e2e2e2;
 }
-.room-footer {
+@media only screen and (min-width: 768px) {
+  .hero-room-slider {
+    width: 904px;
+    height: 548px;
+  }
 }
-.room-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: calc(18 / 14);
+.room-desc {
+  max-width: 289px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-
-  color: #121212;
+  margin-top: 40px;
 }
