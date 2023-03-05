@@ -65,7 +65,7 @@
 .list-footer {
   display: flex;
   gap: 32px;
-}
+} 
 
 .link-footer {
   font-size: 14px;
@@ -82,10 +82,18 @@
 @media screen and (min-width: 1440px) {
   .logo-footer {
     text-align: center;
-  }
+   }
 
   .footer-page {
     padding-top: 44px;
-    align-items: center;
+    position: relative;
+  }
+
+  .logotip{
+    position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
   }
 }

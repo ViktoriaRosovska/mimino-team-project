@@ -7,7 +7,7 @@
       slidesPerView: slidesPerView,
       centeredSlides: false,
       loop: true,
-      spaceBetween: 32,
+      spaceBetween: 30,
 
       autoplay: true,
       navigation: {

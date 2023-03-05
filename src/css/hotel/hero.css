@@ -1,0 +1,20 @@
+.hotel-hero{
+    padding-top: 40px;
+    padding-bottom: 64px;
+}
+
+.hotel-hero-title{
+    margin-bottom: 24px;   
+}
+
+.btn-hotel:not(:last-child){
+    margin-right: 12px;
+    margin-bottom: 40px;
+}
+    
+
+@media screen and (min-width: 768px){
+    .hotel-hero-title{
+        margin-bottom: 32px;
+    }
+}
