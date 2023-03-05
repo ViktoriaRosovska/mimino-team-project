@@ -303,36 +303,49 @@
       <section class="section">
     <div class="container">
         <div class="hotel-triple-room-picture">
-            <div class="item">
-                <img 
-                
-                srcset="/mimino-team-project/assets/image2_sm@1x-12f03092.jpg 335w, /mimino-team-project/assets/image2_md@1x-97462c9f.jpg 331w, /mimino-team-project/assets/image2_lg@1x-0ec00305.jpg 539w, /mimino-team-project/assets/image2_sm@2x-4e388f47.jpg 670w, /mimino-team-project/assets/image2_md@2x-1d911faf.jpg 662w, /mimino-team-project/assets/image2_lg@2x-5afa6275.jpg 1078w"
-
-                sizes="(min-width: 1440px) 539px, (min-width: 768px) 331px, (min-width: 375px) 335px, 100vw"
-                class="triple-room-one"
-                src="./img/hotel/3room/desktop/image2_lg@2x.jpg 1078w" alt="kitchen photo" 
-                width="534">
-            </div>
-            <div class="item">
-                <img 
-                srcset="/mimino-team-project/assets/image3_sm@1x-c45a742e.jpg 335w, /mimino-team-project/assets/image3_md@1x-0bfa2e53.jpg 331w, /mimino-team-project/assets/image3_lg@1x-bfa2430d.jpg 539w, /mimino-team-project/assets/image3_sm@2x-ba7627ff.jpg 670w, /mimino-team-project/assets/image3_md@2x-e80f3909.jpg 662w, /mimino-team-project/assets/image3_lg@2x-3c20e375.jpg 1078w"
-
-                sizes="(min-width: 1440px) 539px, (min-width: 768px) 331px, (min-width: 375px) 335px, 100vw"
-                class="triple-room-two"
-                src="/mimino-team-project/assets/image3_lg@2x-3c20e375.jpg" alt="bedroom photo"
-                width="387"
-                >
-            </div>
-            <div class="item">
-                <img 
-                srcset="/mimino-team-project/assets/image1_sm@1x-69ac1c0a.jpg 335w, /mimino-team-project/assets/image1_md@1x-d6843146.jpg 331w, /mimino-team-project/assets/image1_lg@1x-03bcef1b.jpg 539w, /mimino-team-project/assets/image1_sm@2x-2062ab94.jpg 670w, /mimino-team-project/assets/image1_md@2x-2887752d.jpg 662w, /mimino-team-project/assets/image1_lg@2x-e42dcdce.jpg 1078w"
-                class="triple-room-three"
-        sizes="(min-width: 1440px) 539px, (min-width: 768px) 331px, (min-width: 375px) 335px, 100vw"
-                
-                
-                src="/mimino-team-project/assets/image1_lg@2x-e42dcdce.jpg" alt="bathroom photo"
-                width="387">
-            </div>       
+            
+                <picture class="item">
+                    <source media="(min-width: 1440px)" 
+                    srcset="/mimino-team-project/assets/image2_lg@1x-0ec00305.jpg , /mimino-team-project/assets/image2_lg@2x-5afa6275.jpg ">
+                    <source media="(min-width: 768px)" 
+                    srcset="/mimino-team-project/assets/image2_md@1x-97462c9f.jpg , /mimino-team-project/assets/image2_md@2x-1d911faf.jpg 662w">
+                    <source media="(min-width: 375px)" 
+                    srcset="/mimino-team-project/assets/image2_sm@1x-12f03092.jpg 335w, /mimino-team-project/assets/image2_sm@2x-4e388f47.jpg ">
+                    <img                  
+                        class="triple-room-one"
+                        src="./img/hotel/3room/desktop/image2_lg@2x.jpg 1078w" alt="bedroom photo" 
+                        width="539"
+                        height="762"
+                        loading="lazy">
+                </picture>
+                <picture class="item">
+                    <source media="(min-width: 1440px)" 
+                    srcset="/mimino-team-project/assets/image3_lg@1x-bfa2430d.jpg , /mimino-team-project/assets/image3_lg@2x-3c20e375.jpg ">
+                    <source media="(min-width: 768px)" 
+                    srcset="/mimino-team-project/assets/image3_md@1x-0bfa2e53.jpg , /mimino-team-project/assets/image3_md@2x-e80f3909.jpg 662w">
+                    <source media="(min-width: 375px)" 
+                    srcset="/mimino-team-project/assets/image3_sm@1x-c45a742e.jpg 335w, /mimino-team-project/assets/image3_sm@2x-ba7627ff.jpg ">
+                    <img                  
+                        class="triple-room-one"
+                        src="./img/hotel/3room/desktop/image3_lg@2x.jpg 1078w" alt="bathroom photo" 
+                        width="387"
+                        height="510"
+                        loading="lazy">
+                </picture>
+                <picture class="item">
+                    <source media="(min-width: 1440px)" 
+                    srcset="/mimino-team-project/assets/image1_lg@1x-03bcef1b.jpg , /mimino-team-project/assets/image1_lg@2x-e42dcdce.jpg ">
+                    <source media="(min-width: 768px)" 
+                    srcset="/mimino-team-project/assets/image1_md@1x-d6843146.jpg , /mimino-team-project/assets/image1_md@2x-2887752d.jpg 662w">
+                    <source media="(min-width: 375px)" 
+                    srcset="/mimino-team-project/assets/image1_sm@1x-69ac1c0a.jpg 335w, /mimino-team-project/assets/image1_sm@2x-2062ab94.jpg ">
+                    <img                  
+                        class="triple-room-one"
+                        src="./img/hotel/3room/desktop/image1_lg@2x.jpg 1078w" alt="bathroom photo" 
+                        width="387"
+                        height="510"
+                        loading="lazy">
+                </picture>
         </div>
         <div class="hotel-triple-room-description">
             <div class="hotel-triple-room-desktop">
