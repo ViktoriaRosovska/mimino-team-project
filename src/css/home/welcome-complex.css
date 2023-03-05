@@ -1,9 +1,23 @@
-.welcome {}
+.welcome {
+    text-transform: uppercase;
+}
 
-.welcome-titel {}
+.welcome h2 {
+    margin-bottom: 32px;
+    
+}
 
-.about-hotel {}
+.about-hotel {
+    margin-bottom: 32px;
+}
 
-.about-room {}
+.about-room {
+    margin-bottom: 32px;
 
-.welcome-pic {}
+    margin-left: 29px;
+
+}
+
+.welcome-pic {
+    margin-bottom: 64px;
+}

@@ -1,53 +1,30 @@
-var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 2,
+(() => {
+  let slider;
+
+  function createSlider(slidesPerView) {
+    slider?.destroy();
+    slider = new Swiper(".swiper-restaurant", {
+      slidesPerView: slidesPerView,
       centeredSlides: false,
       loop: true,
-      spaceBetween: 20,
+      spaceBetween: 30,
 
       autoplay: true,
-      pagination: {
-        el: ".swiper-pagination",
-        type: "fraction",
-      },
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
     });
+  }
 
-    var appendNumber = 7;
-    var prependNumber = 1;
-    document
-      .querySelector(".prepend-2-slides")
-      .addEventListener("click", function (e) {
-        e.preventDefault();
-        swiper.prependSlide([
-          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
-          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
-        ]);
-      });
-    document
-      .querySelector(".prepend-slide")
-      .addEventListener("click", function (e) {
-        e.preventDefault();
-        swiper.prependSlide(
-          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
-        );
-      });
-    document
-      .querySelector(".append-slide")
-      .addEventListener("click", function (e) {
-        e.preventDefault();
-        swiper.appendSlide(
-          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
-        );
-      });
-    document
-      .querySelector(".append-2-slides")
-      .addEventListener("click", function (e) {
-        e.preventDefault();
-        swiper.appendSlide([
-          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
-          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
-        ]);
-      })
+  function subscribe(query, slidesPerView) {
+    const mq = window.matchMedia(query);
+    mq.addEventListener("change", e => e.matches ? createSlider(slidesPerView) : null)
+    if (mq.matches)
+      createSlider(slidesPerView);
+  }
+
+  subscribe("(min-width: 1440px)", 5);
+  subscribe("(min-width: 768px) and (max-width: 1439px)", 2);
+  subscribe("(max-width: 767px)", 2);
+})();

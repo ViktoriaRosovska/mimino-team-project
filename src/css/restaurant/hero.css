@@ -2,28 +2,40 @@
   padding-top: 40px;
   padding-bottom: 32px;
 }
-/* .restaurant-hero-container {
-  padding-top: 40px;
-  padding-bottom: 64px;
-  overflow: hidden;
-} */
-/* @media screen and (min-width: 768px) {
-  .restaurant-hero-container {
+@media screen and (min-width: 768px) {
+  .restaurant-hero-section {
     padding-bottom: 40px;
   }
-} */
-
-.restaurant-hero-title {
-  margin-bottom: 40px;
-  color: var(--main-dark-theme);
+}
+.restaurant-hero-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  overflow: hidden;
 }
 @media screen and (min-width: 768px) {
-  .restaurant-hero-title {
-    margin-bottom: 32px;
-    font-weight: 400;
-    font-size: 80px;
+  .restaurant-hero-container {
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .restaurant-hero-title {
+    font-weight: 400;
+    font-size: 80px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .restaurant-hero-title {
+    font-weight: 400;
+    font-size: 90px;
+    margin-top: 204px;
+    margin-bottom: 32px;
+  }
+}
+
 .restaurant-hero-btn-list {
   display: flex;
   gap: 12px;
@@ -35,39 +47,58 @@
     margin-bottom: 46px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .restaurant-hero-btn-list {
+    margin-bottom: 100px;
+  }
+}
 
-.restaurant-hero-img-list {
+.rest-hero-list {
   position: relative;
-  width: 250px;
-  height: 100%;
-
+  height: 429px;
   display: flex;
   gap: 20px;
 }
 @media screen and (min-width: 768px) {
-  .restaurant-hero-img-list {
-    width: 436px;
+  .rest-hero-list {
+    height: 548px;
     gap: 32px;
   }
 }
-.restaurant-hero-list-img-item {
-  position: absolute;
-  right: calc(-100% - 12px);
-  bottom: 0;
+@media screen and (min-width: 1440px) {
+  .rest-hero-list {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    height: 580px;
+    transform: translateX(calc(-32px - 50%));
+  }
+}
+.rest-hero-item {
   width: 250px;
 }
 @media screen and (min-width: 768px) {
-  .restaurant-hero-list-img-item {
-    right: calc(-100% - 32px);
+  .rest-hero-item {
     width: 436px;
+  }
+}
+.rest-hero-item:last-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  transform: translateX(calc(100% + 20px));
+}
+@media screen and (min-width: 768px) {
+  .rest-hero-item:last-child {
+    width: 436px;
+    transform: translateX(calc(100% + 32px));
   }
 }
 
 .rest-hero-text {
   margin-top: 40px;
-
   font-size: 14px;
-  line-height: 1.29;
   letter-spacing: 0.05em;
 
   color: var(--main-dark-theme);
@@ -75,6 +106,11 @@
 @media screen and (min-width: 768px) {
   .rest-hero-text {
     width: 338px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .rest-hero-text {
+    margin-top: 204px;
   }
 }
 .rest-hero-text-italic {
