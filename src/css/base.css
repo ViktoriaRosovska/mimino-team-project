@@ -99,9 +99,6 @@
   }
 
 
-
-
-
 .paragraph {
   text-transform: uppercase;
   font-weight: var(--font-medium-500);
@@ -119,24 +116,19 @@
 @media screen and (max-width: 767px) {
   .title {
   font-size: 40px;
-  padding-bottom: 24px;
+  margin-bottom: 24px;
   }
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-width: 768px)  {
   .title {
-      font-size: 63px;
+      font-size: 68px;
     }
  
 }
 
-@media screen and (min-width: 1440px) {
-  .title {
-    font-size: 68px;
-  }
 
-}
 .chapter {
   text-transform: uppercase;
   font-size: 32px;
