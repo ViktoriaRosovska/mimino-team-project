@@ -74,6 +74,7 @@
 
 .social-icon {
   stroke: var(--main-light-theme);
+  fill: none;
 }
 
 .menu-toggle {
