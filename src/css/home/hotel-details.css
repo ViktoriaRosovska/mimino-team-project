@@ -1,7 +1,11 @@
 .hotel-details-container {
+
     display: flex;  
     flex-direction: column;
-    background-color: var(--main-dark-theme);
+
+    position: relative; 
+    overflow: hidden;  
+
 }
 
 .hotel-details-section {
@@ -16,8 +20,10 @@
 @media screen and (max-width: 767px) {
     .title-hotel-details {
       margin-bottom: 32px;
+    
 }
 }
+
 
 @media screen and (min-width: 768px) {
     .title-hotel-details {
@@ -37,6 +43,7 @@
 }
 
 .btns-hotel-details {
+
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -116,9 +123,24 @@
         right: 0;
     }
 
+
     .hotel-grid {
         margin-bottom: 0;
         grid-column-gap: 28px; 
         grid-row-gap: 28px;
     }
+
+ }
+/* на час показу роботи ментору */
+ .slider-thumb {
+    display: none;
+ }
+
+ .image-thumb {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 82px;
+
  }
