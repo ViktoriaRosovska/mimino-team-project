@@ -16,7 +16,11 @@ let select = function () {
     }
 
     function selectChoose() {
-        let text = this.innerText;
+        let text = this.innerText,
+        select = this.closest('.select'),
+        currentText = this.closest('.select').querySelector('.select-current');    
+        currentText.innerText = text;
+        select.classList.remove('is-active');
         console.log(text);
      }
 

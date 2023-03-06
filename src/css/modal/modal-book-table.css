@@ -1,37 +1,97 @@
-.overlay {
+body.lock-scroll { overflow: hidden; }
+.backdrop {
     position: fixed;
-    display: none;
+    visibility: hidden;
+    opacity: 0;
+    /* display: none; */
     top:0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: palevioletred;
+    background-color: rgba(46, 47, 66, 0.7);
+    transition: opacity var(--transition), visibility var(--transition);
     z-index: 1000;
 }
-.modal-book-table {
+.modal {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    opacity: 0;
+    visibility: hidden;
     top: 50%;
     left: 50%;
-    transform: tranlate(-50%,-50%);
+    transform: translate(-50%, -50%) scale(1);
     width: 335px;
-    height: 528px;
-    background-color: black;
-    color: var(--main-white-color);
+    background-color: var(--main-dark-theme);
+    color: var(--main-light-theme);
     z-index: 1000;
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 24px;
     padding-bottom: 40px;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -.02em;
+    font-weight: var(--font-medium-500);
+    text-transform: uppercase;
 }
 
-.user-name {
+.backdrop.active,
+.modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+.modal-close-icon {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+.form-title {
+  font-size: 28px;
+  line-height: 1.36;
+  color: var(--main-light-color);
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.form-title-italic {
+    font-style: italic;
+}
+.form-style-label {
+    margin-bottom: 32px;
     display: flex;
     flex-direction: column;
+    gap: 8px;
+    color: var(--main-dark-grey);
+    font-size: 8px;
+    line-height: 1.5;
+    letter-spacing: .18em;
 }
-
+.user-input {
+    /* margin-bottom: 8px; */
+    padding: 0;
+    padding-bottom: 18px;
+    height: 36px;
+    width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: var(--main-light-theme);
+    border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+    padding: 0;
+    outline: transparent;
+}
+.user-input:hover {
+    color: var(--main-dark-theme);
+    background-color: var(--main-white-color);
+}
+.user-input::placeholder {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--main-light-color);
+}
 .select {
-    width: 250px;
-    margin: 0 auto;
     position: relative;
 }
 .select.is-active .select-body {
@@ -43,51 +103,59 @@
     left: 0;
     right: 0;
     top: 100%;
-    border: 1px solid purple;
-    
+    border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
 }
 .select-header {
     display: flex;
-    border: 1px solid purple;
-    border-bottom: 0;
     cursor: pointer;
-    height: 40px;
-    background-color: var(--main-white-color);
+    height: 27px;
+    border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
 }
+
 .select-current {
-    font-size: 18px;
-    line-height: 24px;
-    padding: 8px;
-    color: black;
-    
-    
+    position: relative;
 }
 .select-item {
-    border-color: purple;
-    color: black;
-    border-top: 0;
+    color: var(--main-dark-theme);
     background-color: var(--main-white-color);
-    padding-left: 8px;
-    line-height: 24px;
-    font-size: 16px;
-    cursor: pointer;
-    
+    font-size: 18px;
+    cursor: pointer; 
+    margin-left: auto;
+    margin-right: auto; 
 }
 .select-item:hover {
-    background-color: cadetblue;
-    border-top: 1px solid purple;
-    border-bottom: 1px solid purple;
+    background-color: var(--main-dark-theme);
     color: white;
-    line-height: 22px;
 }
 .select-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
     display: flex;
     flex-shrink: 0;
     justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    margin-left: auto;
-    color: black;
+    align-items: center; 
+   
 }
+.quantity-person-table {
+    display: none;
+}
+.number-of-people {
+    margin-bottom: 18px;
+}
+.user-date {
+    font-size: 14px;    
+}
+.tel-form {
+    margin-bottom: 40px;
+}
+.form-book-table {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.btn-form {
+    align-self: center; 
+}
+
+
