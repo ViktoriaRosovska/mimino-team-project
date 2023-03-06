@@ -46,7 +46,7 @@
 .restaurant-hero-btn-list {
   display: flex;
   gap: 12px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 @media screen and (min-width: 768px) {
   .restaurant-hero-btn-list {
@@ -60,7 +60,7 @@
   }
 }
 
-.rest-hero-list {
+/* .rest-hero-list {
   position: relative;
   height: 429px;
   display: flex;
@@ -101,14 +101,15 @@
     width: 436px;
     transform: translateX(calc(100% + 32px));
   }
-}
+} */
 
 .rest-hero-text {
-  margin-top: 40px;
+  margin-top: 535px;
   font-size: 14px;
   letter-spacing: 0.05em;
 
   color: var(--main-dark-theme);
+  /* margin-top: 569px; */
 }
 @media screen and (min-width: 768px) {
   .rest-hero-text {
@@ -123,4 +124,67 @@
 }
 .rest-hero-text-italic {
   font-style: italic;
+}
+
+/* slider */
+.rest-hero-wrapper {
+  position: relative;
+}
+.rest-hero-swiper {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  height: 429px;
+  width: 520px;
+}
+.swiper {
+  width: 100%;
+  height: 429px;
+}
+.swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  display: flex;
+  gap: 20px;
+  min-width: 250px;
+  height: 429px;
+}
+
+.swiper-slide picture {
+  display: block;
+  min-width: 250px;
+  height: 429px;
+  object-fit: cover;
+}
+.swiper-horizontal {
+  height: 100%;
+}
+.swiper {
+  width: 520px;
+  height: 300px;
+  margin: 20px auto;
+}
+
+.swiper-button-next {
+  left: 44px;
+}
+
+.rest-hero-btn-next:after {
+  content: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 15L8 8L1 0.999999' stroke='%23121212' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+  position: absolute;
+  bottom: -453px;
+  width: 100%;
+}
+.rest-hero-btn-prev:after {
+  content: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 15L0.999999 8L8 0.999999' stroke='%23121212' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  position: absolute;
+  bottom: -453px;
+  margin-right: 32px;
+
+}
+.rest-hero-swiper-btn{
+ position: absolute;
+  margin-left: 248px;
 }
