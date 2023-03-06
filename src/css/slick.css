@@ -55,6 +55,7 @@
     left: 0;
 
     display: block;
+    height: 120px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -130,6 +131,7 @@
     margin-right: 30px;
 }
 
-.slode-card-nav > img {
+.slide-card-nav > img {
     margin: 0;
+
 }
