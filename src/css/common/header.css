@@ -141,6 +141,7 @@
   .header-section {
     position: absolute;
     width: 100%;
+    background-color: transparent;
   }
   .social-items {
     gap: 16px;
