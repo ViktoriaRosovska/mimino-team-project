@@ -1,4 +1,5 @@
 let select = function () {
+
     let selectHeader = document.querySelectorAll('.select-header');
     let selectItem = document.querySelectorAll('.select-item');
     
@@ -18,5 +19,7 @@ let select = function () {
         let text = this.innerText;
         console.log(text);
      }
+
+
 };
 select();
