@@ -33,14 +33,10 @@
    z-index: 1;
    background-color: transparent;
    display: flex;
-   
-  
    transition-property: transform;
-   transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
-   
+   transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);   
 
 }
-
 
   .swiper-button-next,
   .swiper-button-prev {
@@ -55,7 +51,6 @@
     justify-content: center;
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
  }
-
     .swiper-button-next {
     left: 44px;
 
@@ -70,10 +65,7 @@
     margin-top: 218px;
     margin-right: 20px; 
    }
-   @media screen and (max-width: 767px) {
-      
-      
-   }
+   
    @media screen and (min-width: 768px) {
       .swiper-button-next:after {
          margin-top: 330px;
@@ -85,9 +77,6 @@
       }
    }
  
- 
- 
-
 .swiper-button-next:hover,
 .swiper-button-next:focus,
 .swiper-button-prev:hover,
