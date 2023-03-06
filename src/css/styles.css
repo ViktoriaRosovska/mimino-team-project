@@ -9,7 +9,8 @@
 @import url('./variables.css');
 @import url('./base.css');
 @import url('./modal/modal-menu.css');
-@import url('./modal/modal-btable.css');
+@import url('./modal/modal-book-table.css');
+
 
 /* Header */
 @import url('./common/header.css');
