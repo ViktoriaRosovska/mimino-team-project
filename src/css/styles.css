@@ -12,7 +12,6 @@
 @import url('./modal/modal-book-table.css');
 
 
-
 /* Header */
 @import url('./common/header.css');
 
@@ -23,7 +22,6 @@
 @import url('./home/welcome-complex.css');
 @import url('./home/hotel-details.css');
 @import url('./home/location-contacts.css');
-
 
 /* Hotel page */
 @import url('./hotel/hero.css');
@@ -42,4 +40,3 @@
 
 /* Footer */
 @import url('./common/footer.css');
-

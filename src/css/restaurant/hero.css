@@ -7,11 +7,13 @@
     padding-bottom: 40px;
   }
 }
-@media screen and (min-width: 1440px){
-   .restaurant-hero-section {
+
+@media screen and (min-width: 1440px) {
+  .restaurant-hero-section {
     padding-top: 0;
   }
 }
+
 .restaurant-hero-container {
   padding-left: 20px;
   padding-right: 20px;
@@ -73,7 +75,7 @@
 @media screen and (min-width: 1440px) {
   .rest-hero-list {
     position: absolute;
-    top: 30px;
+    top: 108px;
     right: 0;
     height: 580px;
     transform: translateX(calc(-32px - 50%));

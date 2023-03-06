@@ -1,7 +1,8 @@
 .header-section {
   padding: 0;
+  z-index: 1;
   border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
-  background: var(--main-dark-theme);
+  background-color: var(--main-dark-theme);
 }
 
 .header-container {
@@ -50,6 +51,10 @@
   text-transform: uppercase;
 }
 
+.menu-container .header-logo {
+  color: var(--main-light-theme);
+}
+
 .logo-txt {
   margin-top: 3px;
   font-weight: 400;
@@ -78,6 +83,10 @@
 
 .social-icon {
   fill: none;
+  stroke: var(--main-light-theme);
+}
+
+.social-icon.menu {
   stroke: var(--main-light-theme);
 }
 
@@ -137,6 +146,11 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .header-section {
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+  }
   .social-items {
     gap: 16px;
     margin-left: 504px;
