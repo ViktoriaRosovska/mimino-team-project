@@ -4,7 +4,7 @@
     grid-template-columns: auto auto;
     grid-column-gap: 20px; 
     grid-row-gap: 20px;
-    
+    transition: var(--transition);
 
 }
 @media screen and (min-width: 768px) {

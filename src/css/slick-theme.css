@@ -40,6 +40,7 @@
     border: none;
     outline: none;
     background: transparent;
+    transition: var(--transition);
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -166,6 +167,7 @@
     border: 0;
     outline: none;
     background: transparent;
+    transition: var(--transition);
 }
 .slick-dots li button:hover,
 .slick-dots li button:focus

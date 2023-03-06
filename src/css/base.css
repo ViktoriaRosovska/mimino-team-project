@@ -67,6 +67,7 @@
   border: 0.8px solid var(--main-light-theme);
   color: var(--main-light-theme);
   text-transform: uppercase;
+  transition: var(--transition);
 }
 .btn:hover,
 .btn:focus {
@@ -77,6 +78,7 @@
 .btn-dark {
   color: var(--main-dark-theme);
   border-color: var(--main-dark-theme);
+  transition: var(--transition);
 }
 
 .btn-dark:hover,
