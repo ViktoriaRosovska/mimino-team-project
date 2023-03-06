@@ -7,9 +7,10 @@
 .section.hero-section {
     position: relative;
     height: 832px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 40px 0 0;
+    /* margin-right: auto;
+    margin-left: auto; */
+    padding-top: 40px;
+    padding-bottom: 40px;
 
 
     text-align: center;
