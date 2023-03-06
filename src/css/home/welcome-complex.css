@@ -46,6 +46,9 @@
 }
 
 @media screen and (min-width:768px) {
+    .welcome-section{
+        padding-bottom: 80px;
+    }
     .welcome h2 {
         font-size: 36px;
         line-height: 40px;
@@ -69,7 +72,9 @@
 }
 
 @media screen and (min-width:1440px) {
-
+    .welcome-section{
+        padding-bottom: 100px;
+    }
     .welcome-hotel {
         display: flex;
         justify-content: flex-start;
@@ -92,6 +97,7 @@
 
     .about-hotel {
         width: 437px;
+        margin-bottom: 24px;
     }
 
     .about-room {
