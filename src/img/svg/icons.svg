@@ -1,6 +1,5 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="icon-close" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none"><path stroke="#F7F7F7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 7 7 21M7 7l14 14"/></svg>
 <symbol id="icon-chevron-right" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M9 30l14-14-14-14"></path>
 </symbol>
@@ -10,8 +9,8 @@
 <symbol id="icon-cross" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.6" d="M29.334 2.666l-26.668 26.668M2.666 2.666l26.668 26.668"></path>
 </symbol>
-<symbol id="icon-shevron-down" width="20" height="20" fill="none">
-  <path stroke="#F7F7F7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="m5 7.5 5 5 5-5"/>
+<symbol id="icon-chevron-down" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.88" d="M8 12l8 8 8-8"></path>
 </symbol>
 <symbol id="icon-menu-burger" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M4 16h24M4 8h24M4 24h16"></path>
