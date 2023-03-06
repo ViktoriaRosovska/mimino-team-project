@@ -1,6 +1,92 @@
+.overlay {
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: palevioletred;
+    z-index: 1000;
+}
 .modal-book-table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: tranlate(-50%,-50%);
     width: 335px;
     height: 528px;
     background-color: black;
     color: var(--main-white-color);
+    z-index: 1000;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+
+.user-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.select {
+    width: 250px;
+    margin: 0 auto;
+    position: relative;
+}
+.select.is-active .select-body {
+    display: block;
+}
+.select-body {
+    position: absolute;
+    display: none;
+    left: 0;
+    right: 0;
+    top: 100%;
+    border: 1px solid purple;
+    
+}
+.select-header {
+    display: flex;
+    border: 1px solid purple;
+    border-bottom: 0;
+    cursor: pointer;
+    height: 40px;
+    background-color: var(--main-white-color);
+}
+.select-current {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 8px;
+    color: black;
+    
+    
+}
+.select-item {
+    border-color: purple;
+    color: black;
+    border-top: 0;
+    background-color: var(--main-white-color);
+    padding-left: 8px;
+    line-height: 24px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.select-item:hover {
+    background-color: cadetblue;
+    border-top: 1px solid purple;
+    border-bottom: 1px solid purple;
+    color: white;
+    line-height: 22px;
+}
+.select-icon {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-left: auto;
+    color: black;
 }
