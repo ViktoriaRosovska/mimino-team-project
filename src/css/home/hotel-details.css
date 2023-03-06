@@ -57,7 +57,7 @@
  /* .slider-thumb {
     display: none;
  } */
- 
+
 .slider-thumb {
     margin-bottom: 82px;
 }
@@ -91,11 +91,13 @@
     }
 
     .title-hotel-details {
-        margin-bottom: 80px;
+        margin: 0;
     }
 
     .text-hotel-details {
         width: 362px;
+        margin-top: 7px;
+        margin-bottom: 0;
     }
 
     .slider-for {
