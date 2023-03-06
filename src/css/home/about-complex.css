@@ -172,6 +172,9 @@
     gap: 107px;
     align-items: center;
   }
+  .about-paragraph {
+    margin-right: 57px;
+  }
   .about-descr {
     max-width: 530px;
   }
