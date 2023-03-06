@@ -1,5 +1,5 @@
 .about-section {
-  padding-top: 40px;
+  padding-top: 64px;
 
 }
 
@@ -164,8 +164,8 @@
 
 @media screen and (min-width: 1440px) {
   .about-section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
   .about-up-side {
     display: flex;
