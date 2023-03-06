@@ -53,6 +53,7 @@
     align-items: center;
     justify-content: center;
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
+    transition: var(--transition);
  }
 
     .swiper-hotel .swiper-button-next {
