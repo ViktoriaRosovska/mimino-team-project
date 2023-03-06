@@ -7,14 +7,47 @@
     margin-bottom: 24px;   
 }
 
-.btn-hotel:not(:last-child){
-    margin-right: 12px;
+.hotel-hero-btn-list{
+    display: flex;
+    gap: 12px;
     margin-bottom: 40px;
 }
-    
 
 @media screen and (min-width: 768px){
     .hotel-hero-title{
         margin-bottom: 32px;
     }
 }
+
+.list-hero-hotel{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    height: 429px;
+}
+
+.slider-hotel-hero{
+    min-width: 250px;
+}
+ @media screen and (min-width: 768px){
+    .list-hero-hotel{
+        gap: 32px;
+        height: 548px;
+    }
+    .slider-hotel-hero{
+        min-width: 436pxpx;
+    }
+ }
+
+ @media screen and (min-width: 1440px){
+    
+ }
+
+/* .slider-hotel-hero{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(calc(100% + 20px));
+ 
+}  */
+
