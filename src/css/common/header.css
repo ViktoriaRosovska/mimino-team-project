@@ -51,6 +51,10 @@
   text-transform: uppercase;
 }
 
+.menu-container .header-logo {
+  color: var(--main-light-theme);
+}
+
 .logo-txt {
   margin-top: 3px;
   font-weight: 400;
@@ -79,6 +83,10 @@
 
 .social-icon {
   fill: none;
+  stroke: var(--main-light-theme);
+}
+
+.social-icon.menu {
   stroke: var(--main-light-theme);
 }
 
