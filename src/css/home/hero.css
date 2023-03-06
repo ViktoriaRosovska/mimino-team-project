@@ -7,9 +7,7 @@
 .section.hero-section {
     position: relative;
     height: 832px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 40px 0 0;
+
 
 
     text-align: center;
@@ -108,13 +106,11 @@
                                 var(--main-dark-theme) 98.51%),
                 url(/img/home/hero/hero_md@1x.jpg);
 
-                              
-
     }
 
-    @media  screen and (min-device-pixel-ratio: 2) and (min-width: 768px), 
-    screen and (min-resolution: 192dpi) and (min-width: 768px), 
-    screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    @media  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1439px), 
+    screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1439px), 
+    screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1439px) {
         .hero-img {
             background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
 
@@ -135,7 +131,7 @@
 
     .btns-hero {
         position: absolute;
-        top: 710px;
+        top: 660px;
         left: 234px;
     }
 

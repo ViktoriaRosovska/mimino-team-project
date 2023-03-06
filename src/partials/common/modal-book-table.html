@@ -1,0 +1,74 @@
+<div class="backdrop js-overlay-modal">
+  <div class="modal-book-table modal" data-modal="1" role="group">
+    <svg class="modal-close-icon js-modal-close" width="28" height="28">
+      <use href="./img/svg/icons.svg#icon-close"></use>
+    </svg>
+    <p class="title form-title">
+      BOOK&nbsp;<span class="form-title-italic">&nbsp;A TABLE</span>
+    </p>
+    <form class="form-book-table">
+      <label class="form-style-label user-booking" for="name">
+        <input
+          class="user-input"
+          name="name"
+          type="text"
+          placeholder="Your name"
+          required
+        />Who should book a table for?
+      </label>
+
+      <div class="number-of-people" role="group">
+        <select name="quantity" class="quantity-person-table">
+          <option value="1">1</option>
+        </select>
+        <!-- <label class="form-style-label" for="quantity">number of people</label> -->
+        <div class="select">
+          <div class="select-header user">
+            <span class="select-current holder">number of people</span>
+            <span class="select-icon">
+              <svg width="20" height="20">
+                <use href="./img/svg/icons.svg#icon-shevron-down"></use>
+              </svg>
+            </span>
+          </div>
+          <!-- add icons -->
+          <div class="select-body">
+            <div class="select-item">1</div>
+            <div class="select-item">2</div>
+            <div class="select-item">3</div>
+            <div class="select-item">4</div>
+            <div class="select-item">5</div>
+            <div class="select-item">6</div>
+            <div class="select-item">7</div>
+            <div class="select-item">8</div>
+            <div class="select-item">9</div>
+            <div class="select-item">10</div>
+            <div class="select-item">&gt;&nbsp;10</div>
+          </div>
+        </div>
+      </div>
+
+      <label class="form-style-label">
+        <input
+          class="user-input user-date"
+          name="date"
+          type="date"
+          placeholder="Today"
+        />
+        What date to book?</label
+      >
+
+      <label class="form-style-label tel-form">
+        <input
+          class="user-input user-phone-input"
+          name="tel"
+          type="tel"
+          placeholder="+ 38 () "
+          required
+        />
+        Phone number
+      </label>
+      <button class="btn btn-form" type="submit">MAKE A RESERVATION</button>
+    </form>
+  </div>
+</div>

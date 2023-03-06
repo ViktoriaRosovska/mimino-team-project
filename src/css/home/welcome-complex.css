@@ -1,3 +1,7 @@
+.welcome-section {
+    padding-bottom: 64px;
+}
+
 .welcome {
     text-transform: uppercase;
 }
@@ -7,7 +11,15 @@
     font-size: 32px;
     line-height: 36px;
     margin-bottom: 32px;
+    width: 335px;
+}
 
+.welcome-text {
+    max-width: 335px;
+    
+}
+.welcome-text .paragraph{
+    font-weight: 400;
 }
 
 .welcome-text:not :last-child {
@@ -19,14 +31,14 @@
 }
 
 .about-hotel {
-
-    margin-right: 27px;
+    margin-right: 29px;
     margin-bottom: 32px;
+    width: 306px;
 }
 
 .about-room {
+    width: 335px;
     margin-bottom: 32px;
-    margin-right: 29px;
 }
 
 .welcome-pic {
@@ -37,51 +49,62 @@
     .welcome h2 {
         font-size: 36px;
         line-height: 40px;
+        width: 434px;
+
+    }
+    .welcome-title {
+        width: 434px;
     }
 
     .welcome-text {
-        display: flex
+        display: flex;
+        max-width: 704px;
+        /* width: 768px; */
     }
 
-    .about-hotel {}
-
+   
+    .about-room {
+        width: 366px;
+    }
 }
 
 @media screen and (min-width:1440px) {
-    .welcome-hotel {
-        width: 1240px;
-    }
-
-    .welcome {
-        width: 599px;
-
-    }
 
     .welcome-hotel {
         display: flex;
         justify-content: flex-start;
         flex-direction: row-reverse;
-
-
+        width: 1240px;
     }
 
-
-    .welcome-text {
-        display: block;
-
+    .welcome {
+        width: 599px;
     }
 
     .welcome-title {
         margin-bottom: 310px;
     }
 
-    .about-pic {
+    .welcome-text {
+        display: block;
+        max-width: 437px;
+    }
 
+    .about-hotel {
+        width: 437px;
+    }
+
+    .about-room {
+        width: 437px;
+        margin-bottom: 0px;
+    }
+
+    .welcome-pic {
         margin-right: 32px;
     }
 
-    .about-image {
-        width: 1240px;
-
+    .welcome-image {
+        width: 672px;
+        height: 599px;
     }
 }
