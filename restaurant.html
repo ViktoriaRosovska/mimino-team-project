@@ -9,9 +9,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-
     
-
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
@@ -19,10 +17,11 @@
     <link rel="stylesheet" href="./css/swiper-restaurant.css" />
 
     
-
-    <script type="module" crossorigin src="/mimino-team-project/assets/swiper-hotel-7a719a02.js"></script>
-    <link rel="stylesheet" href="/mimino-team-project/assets/swiper-hotel-57da3b57.css">
+    
+    <script type="module" crossorigin src="/mimino-team-project/assets/swiper-hotel-67fce289.js"></script>
+    <link rel="stylesheet" href="/mimino-team-project/assets/swiper-hotel-47928b30.css">
     <link rel="stylesheet" href="/mimino-team-project/assets/restaurant-ba30e7f6.css">
+    <link rel="stylesheet" href="/mimino-team-project/assets/modal-book-table-5617ca1c.css">
   </head>
   <body>
     <header class="section header-section">
@@ -54,7 +53,7 @@
             rel="noreferrer noopener"
           >
             <svg class="social-icon">
-              <use href="/mimino-team-project/assets/icons-1d48267b.svg#icon-instagram"></use>
+              <use href="/mimino-team-project/assets/icons-e46bd711.svg#icon-instagram"></use>
             </svg>
           </a>
         </li>
@@ -67,7 +66,7 @@
             rel="noreferrer noopener"
           >
             <svg class="social-icon">
-              <use href="/mimino-team-project/assets/icons-1d48267b.svg#icon-facebook"></use>
+              <use href="/mimino-team-project/assets/icons-e46bd711.svg#icon-facebook"></use>
             </svg>
           </a>
         </li>
@@ -80,7 +79,7 @@
             rel="noreferrer noopener"
           >
             <svg class="social-icon">
-              <use href="/mimino-team-project/assets/icons-1d48267b.svg#icon-twitter"></use>
+              <use href="/mimino-team-project/assets/icons-e46bd711.svg#icon-twitter"></use>
             </svg>
           </a>
         </li>
@@ -100,7 +99,7 @@
     <h1 class="title restaurant-hero-title">Restaurant</h1>
     <ul class="restaurant-hero-btn-list">
       <li>
-        <button class="btn btn-dark" type="button">book a table</button>
+        <button class="btn btn-dark js-open-modal" data-modal="1" type="button">book a table</button>
       </li>
       <li>
         <button class="btn btn-dark" type="button">View a menu</button>
@@ -364,7 +363,7 @@
     </ul>
     <ul class="about-kitchen-text-flex">
       <li>
-        <p class="about-kitchen-paragraph">
+        <p class="paragraph about-kitchen-paragraph">
           At Mimino, we are experts in
           <span class="about-kitchen-paragraph-italic">meat preparation.</span>
           Our chefs use only the finest and freshest ingredients to
@@ -375,7 +374,7 @@
         </p>
       </li>
       <li>
-        <p class="about-kitchen-paragraph">
+        <p class="paragraph about-kitchen-paragraph">
           Our
           <span class="about-kitchen-paragraph-italic"
             >slow-cooking process</span
@@ -698,7 +697,7 @@
             rel="noopener norefrrer"
           >
             <svg class="socials-icon" width="20" height="20">
-              <use href="/mimino-team-project/assets/icons-1d48267b.svg#icon-instagram"></use>
+              <use href="/mimino-team-project/assets/icons-e46bd711.svg#icon-instagram"></use>
             </svg>
           </a>
         </li>
@@ -711,7 +710,7 @@
             rel="noopener norefrrer"
           >
             <svg class="socials-icon" width="20" height="20">
-              <use href="/mimino-team-project/assets/icons-1d48267b.svg#icon-facebook"></use>
+              <use href="/mimino-team-project/assets/icons-e46bd711.svg#icon-facebook"></use>
             </svg>
           </a>
         </li>
@@ -724,7 +723,7 @@
             rel="noopener norefrrer"
           >
             <svg class="socials-icon" width="20" height="20">
-              <use href="/mimino-team-project/assets/icons-1d48267b.svg#icon-twitter"></use>
+              <use href="/mimino-team-project/assets/icons-e46bd711.svg#icon-twitter"></use>
             </svg>
           </a>
         </li>
@@ -758,7 +757,7 @@
           rel="noreferrer noopener"
         >
           <svg class="social-icon">
-            <use href="/mimino-team-project/assets/icons-1d48267b.svg#icon-instagram"></use>
+            <use href="/mimino-team-project/assets/icons-e46bd711.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>
@@ -771,7 +770,7 @@
           rel="noreferrer noopener"
         >
           <svg class="social-icon">
-            <use href="/mimino-team-project/assets/icons-1d48267b.svg#icon-facebook"></use>
+            <use href="/mimino-team-project/assets/icons-e46bd711.svg#icon-facebook"></use>
           </svg>
         </a>
       </li>
@@ -784,7 +783,7 @@
           rel="noreferrer noopener"
         >
           <svg class="social-icon">
-            <use href="/mimino-team-project/assets/icons-1d48267b.svg#icon-twitter"></use>
+            <use href="/mimino-team-project/assets/icons-e46bd711.svg#icon-twitter"></use>
           </svg>
         </a>
       </li>
@@ -792,7 +791,84 @@
   </nav>
 </div>
 
+    <div class="backdrop js-overlay-modal">
+  <div class="modal-book-table modal" data-modal="1" role="group">
+    <svg class="modal-close-icon js-modal-close" width="28" height="28">
+      <use href="/mimino-team-project/assets/icons-e46bd711.svg#icon-close"></use>
+    </svg>
+    <p class="title form-title">
+      BOOK&nbsp;<span class="form-title-italic">&nbsp;A TABLE</span>
+    </p>
+    <form class="form-book-table">
+      <label class="form-style-label user-booking" for="name">
+        <input
+          class="user-input"
+          name="name"
+          type="text"
+          placeholder="Your name"
+          required
+        />Who should book a table for?
+      </label>
+
+      <div class="number-of-people" role="group">
+        <select name="quantity" class="quantity-person-table">
+          <option value="1">1</option>
+        </select>
+        <!-- <label class="form-style-label" for="quantity">number of people</label> -->
+        <div class="select">
+          <div class="select-header user">
+            <span class="select-current holder">number of people</span>
+            <span class="select-icon">
+              <svg width="20" height="20">
+                <use href="/mimino-team-project/assets/icons-e46bd711.svg#icon-shevron-down"></use>
+              </svg>
+            </span>
+          </div>
+          <!-- add icons -->
+          <div class="select-body">
+            <div class="select-item">1</div>
+            <div class="select-item">2</div>
+            <div class="select-item">3</div>
+            <div class="select-item">4</div>
+            <div class="select-item">5</div>
+            <div class="select-item">6</div>
+            <div class="select-item">7</div>
+            <div class="select-item">8</div>
+            <div class="select-item">9</div>
+            <div class="select-item">10</div>
+            <div class="select-item">&gt;&nbsp;10</div>
+          </div>
+        </div>
+      </div>
+
+      <label class="form-style-label">
+        <input
+          class="user-input user-date"
+          name="date"
+          type="date"
+          placeholder="Today"
+        />
+        What date to book?</label
+      >
+
+      <label class="form-style-label tel-form">
+        <input
+          class="user-input user-phone-input"
+          name="tel"
+          type="tel"
+          placeholder="+ 38 () "
+          required
+        />
+        Phone number
+      </label>
+      <button class="btn btn-form" type="submit">MAKE A RESERVATION</button>
+    </form>
+  </div>
+</div>
+
+
     
+    <script type="text/javascript" src="./js/modal-booking.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   </body>
 </html>
