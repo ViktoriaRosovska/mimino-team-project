@@ -1,6 +1,6 @@
 .about-section {
-  padding-top: 64px;
-  /* padding-bottom: 64px; */
+  padding-top: 40px;
+
 }
 
 /* About common text styles */
@@ -125,7 +125,7 @@
 @media screen and (min-width: 768px) {
   .about-section {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
   }
   .about-img-item:nth-child(2) {
     position: absolute;
@@ -171,6 +171,9 @@
     display: flex;
     gap: 107px;
     align-items: center;
+  }
+  .about-paragraph {
+    margin-right: 57px;
   }
   .about-descr {
     max-width: 530px;
