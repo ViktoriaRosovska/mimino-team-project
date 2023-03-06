@@ -208,3 +208,12 @@ max-width: 335px;
         line-height: 24px;
     }
 }
+.hotel-triple-room-picture .item {
+    overflow: hidden;
+  }
+  .triple-room-img {
+    transition: transform 300ms;
+  }
+  .hotel-triple-room-picture .item:hover .triple-room-img {
+    transform: scale(1.2);
+  }
