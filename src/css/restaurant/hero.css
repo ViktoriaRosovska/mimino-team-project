@@ -7,6 +7,11 @@
     padding-bottom: 40px;
   }
 }
+@media screen and (min-width: 1440px){
+   .restaurant-hero-section {
+    padding-top: 0;
+  }
+}
 .restaurant-hero-container {
   padding-left: 20px;
   padding-right: 20px;
@@ -31,7 +36,7 @@
   .restaurant-hero-title {
     font-weight: 400;
     font-size: 90px;
-    margin-top: 204px;
+    margin-top: 282px;
     margin-bottom: 32px;
   }
 }
@@ -112,6 +117,7 @@
 @media screen and (min-width: 1440px) {
   .rest-hero-text {
     margin-top: 204px;
+    margin-bottom: 48px;
   }
 }
 .rest-hero-text-italic {
