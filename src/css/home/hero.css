@@ -7,9 +7,7 @@
 .section.hero-section {
     position: relative;
     height: 832px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 40px 0 0;
+
 
 
     text-align: center;
@@ -133,7 +131,7 @@
 
     .btns-hero {
         position: absolute;
-        top: 710px;
+        top: 660px;
         left: 234px;
     }
 
