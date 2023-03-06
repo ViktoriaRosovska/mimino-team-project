@@ -50,6 +50,7 @@
     align-items: center;
     justify-content: center;
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
+    transition: var(--transition);
  }
     .swiper-button-next {
     left: 44px;
