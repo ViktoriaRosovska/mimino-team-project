@@ -19,6 +19,17 @@
   grid-row: 2/3;
 }
 
+/* Transform */
+.four-room-item {
+  overflow: hidden;
+}
+.four-room-img {
+  transition: transform 300ms;
+}
+.four-room-item:hover .four-room-img {
+  transform: scale(1.2);
+}
+
 /* Text styles and others */
 .four-room-list {
   margin-bottom: 32px;
