@@ -20,27 +20,36 @@
 }
 
 .list-hero-hotel{
-    position: relative;
+    overflow: hidden;
     display: flex;
     gap: 20px;
-    height: 429px;
 }
 
 .slider-hotel-hero{
     min-width: 250px;
+    min-height: 429px;
 }
+
+/* .img-hero-hotel img{
+    min-width: 250px;
+    min-height: 429px; }*/
+
  @media screen and (min-width: 768px){
     .list-hero-hotel{
         gap: 32px;
-        height: 548px;
+        min-height: 548px;
+        
     }
     .slider-hotel-hero{
-        min-width: 436pxpx;
+        min-width: 436px;
+        
     }
  }
 
  @media screen and (min-width: 1440px){
-    
+    .slider-hotel-hero{
+        min-height: 580px;
+    }
  }
 
 /* .slider-hotel-hero{
