@@ -10,20 +10,23 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     
-    <link rel="stylesheet" href="/mimino-team-project/assets/styles-1313663e.css">
+    
+    <script type="module" crossorigin src="/mimino-team-project/assets/swiper-hotel-84403917.js"></script>
+    <link rel="stylesheet" href="/mimino-team-project/assets/swiper-hotel-d0d57130.css">
+    <link rel="stylesheet" href="/mimino-team-project/assets/room-0fb1288e.css">
   </head>
   <body>
     <header class="section header-section">
   <div class="container header-container">
     <nav class="header-nav">
       <ul class="site-nav">
-        <li><a class="site-nav-link curent" href="./index.html">Home</a></li>
-        <li><a class="site-nav-link" href="./hotel.html">Hotel</a></li>
+        <li><a class="site-nav-link" id="nav-home" href="./index.html">Home</a></li>
+        <li><a class="site-nav-link" id="nav-hotel" href="./hotel.html">Hotel</a></li>
         <li>
-          <a class="site-nav-link" href="./restaurant.html">Restaurant</a>
+          <a class="site-nav-link" id="nav-rest" href="./restaurant.html">Restaurant</a>
         </li>
         <li>
-          <a class="site-nav-link" href="./room.html">Room</a>
+          <a class="site-nav-link" id="nav-room" href="./room.html">Room</a>
         </li>
       </ul>
     </nav>
@@ -78,8 +81,7 @@
       class="menu-toggle js-open-menu"
       aria-expanded="false"
       aria-controls="mobile-menu"
-    >
-    </button>
+    ></button>
   </div>
 </header>
 
@@ -422,5 +424,63 @@
   <div class="line-footer"></div>
 </footer>
 
+    <div class="menu-container js-menu-container" id="mobile-menu">
+  <button class="modal-close js-close-menu"></button>
+  <p class="header-logo">
+    MIMINO
+    <span class="logo-txt">restaurant-hotel complex</span>
+  </p>
+  <ul class="mobile-menu">
+    <li><a href="./index.html" class="link">Home</a></li>
+    <li><a href="./hotel.html" class="link">Hotel</a></li>
+    <li><a href="./restaurant.html" class="link">Restaurant</a></li>
+    <li><a class="link" href="./room.html">Room</a></li>
+  </ul>
+  <nav class="social">
+    <ul class="social-items">
+      <li class="social-item">
+        <a
+          class="social-link"
+          href="https://www.instagram.com"
+          aria-label="instagram"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <svg class="social-icon">
+            <use href="/mimino-team-project/assets/icons-1d48267b.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social-item">
+        <a
+          class="social-link"
+          href="https://www.facebook.com"
+          aria-label="facebook"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <svg class="social-icon">
+            <use href="/mimino-team-project/assets/icons-1d48267b.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social-item">
+        <a
+          class="social-link"
+          href="https://twitter.com"
+          aria-label="twitter"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <svg class="social-icon">
+            <use href="/mimino-team-project/assets/icons-1d48267b.svg#icon-twitter"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+    
   </body>
 </html>
