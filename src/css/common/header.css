@@ -1,7 +1,6 @@
 .header-section {
   padding: 0;
   border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
-  background: var(--main-dark-theme);
 }
 
 .header-container {
@@ -137,6 +136,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .header-section {
+    position: absolute;
+    width: 100%;
+  }
   .social-items {
     gap: 16px;
     margin-left: 504px;
