@@ -31,6 +31,14 @@
   }
 }
 @media screen and (min-width: 1440px) {
+  .about-kitchen-img-flex-one {
+    flex-direction: row;
+  }
+  .about-kitchen-img-flex-two {
+    flex-direction: inherit;
+    gap: 32px;
+    margin-top: 0;
+  }
 }
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .about-kitchen-text-flex {
@@ -44,6 +52,17 @@
     flex-wrap: nowrap;
     gap: 32px;
     margin-top: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about-kitchen-container {
+    position: relative;
+  }
+  .about-kitchen-text-flex {
+    position: absolute;
+    bottom: 40px;
+    right: 45px;
+    margin-top: 0;
   }
 }
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -61,8 +80,13 @@
   .about-kitchen-paragraph {
     font-weight: 500;
   }
+  .paragraph-one {
+    width: 334px;
+  }
+  .paragraph-second {
+    width: 453px;
+  }
 }
-
 .about-kitchen-paragraph-italic {
   font-style: italic;
 }
