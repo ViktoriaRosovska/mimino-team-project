@@ -1,6 +1,7 @@
 .hotel-details-container {
-    position: relative;   
-    background-color: var(--main-dark-theme);
+    position: relative; 
+    overflow: hidden;  
+    /* background-color: var(--main-dark-theme); */
 }
 
 .hotel-details-section {
@@ -14,8 +15,10 @@
 @media screen and (max-width: 767px) {
     .title-hotel-details {
       margin-bottom: 32px;
+    
 }
 }
+
 
 @media screen and (min-width: 768px) {
     .title-hotel-details {
@@ -31,9 +34,9 @@
 }
 
 .btns-hotel-details {
-    position: absolute;
-    top: 0;
-    right: 0;
+    /* position: absolute; */
+    /* top: 0; */
+    /* right: 0; */
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -73,4 +76,16 @@
         top: 0;
         right: 0;
     }
+ }
+/* на час показу роботи ментору */
+ .slider-thumb {
+    display: none;
+ }
+
+ .image-thumb {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 82px;
  }
