@@ -41,6 +41,7 @@
 .site-nav-link:hover::after {
   display: block;
   width: 100%;
+  height: 2px;
 }
 
 .header-logo {
