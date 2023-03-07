@@ -50,13 +50,17 @@
  }
 
  @media screen and (min-width: 1440px){
+    .hotel-hero{
+        padding-top: 30px;
+        padding-bottom: 48px;
+    }
     .h-h-main{
         position: relative;
     }
     .list-hero-hotel{
         height: 580px;
    position: absolute;
-   top: 30px;
+   top: 0px;
    left: 705px;
   
         
