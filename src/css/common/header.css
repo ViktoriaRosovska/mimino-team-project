@@ -25,7 +25,7 @@
   content: '';
   position: absolute;
   top: 47px;
-  left: 50%;
+  left: 45%;
   display: block;
   width: 4px;
   height: 4px;
@@ -36,6 +36,11 @@
 
 .site-nav-link::after {
   display: none;
+}
+
+.site-nav-link:hover::after {
+  display: block;
+  transform: scaleX(1000%);
 }
 
 .header-logo {
