@@ -1,8 +1,7 @@
-new Swiper('.hero-room-slider', {
+new Swiper('.hero-room-slider .swiper', {
   // Default parameters
   slidesPerView: 2,
   spaceBetween: 20,
-  loop: true,
 
   // Navigation arrows
   navigation: {

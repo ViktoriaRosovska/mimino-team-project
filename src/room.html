@@ -2,15 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Room</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <!-- Modern normalize -->
     <link
       rel="stylesheet"
@@ -23,7 +18,6 @@
     />
     <!-- Custom styles -->
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/common/header-room.css" />
   </head>
   <body>
     <load
@@ -32,6 +26,11 @@
       logo-theme="header-logo-dark"
       nav-theme="site-nav-dark"
       icon-theme="social-nav-dark"
+      menu-icon-theme="menu-toggle-dark"
+      home-page=""
+      hotel-page=""
+      restaurant-page=""
+      room-page="current"
     />
 
     <main>
@@ -40,11 +39,16 @@
     </main>
 
     <load src="partials/common/footer.html" />
-    <load src="partials/common/mob-menu.html" />
+    <load
+      src="partials/common/mob-menu.html"
+      logo-theme="header-logo-light"
+      icon-theme="social-light"
+    />
 
     <!-- Swiper script -->
-    <script type="module" src="/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/body-scroll-lock@4.0.0-beta.0/lib/bodyScrollLock.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/room-slider.js" type="module"></script>
+    <script src="./js/mobile-menu.js" type="module"></script>
   </body>
 </html>

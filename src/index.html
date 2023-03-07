@@ -2,51 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href=".favicon.svg" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/favicon/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="./favicon/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <link rel="shortcut icon" href="./favicon/favicon.ico" />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="msapplication-config" content="./favicon/browserconfig.xml" />
-    <meta name="theme-color" content="#ffffff" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <!-- Modern normalize -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <!-- Swiper styles -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="./css/swiper-slider/swiper-restaurant.css" />
-    <link rel="stylesheet" href="./css/swiper-slider/swiper-hotel.css" />
+    <!-- Slick styles -->
     <link rel="stylesheet" type="text/css" href="./css/slick.css" />
     <link rel="stylesheet" type="text/css" href="./css/slick-theme.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/swiper-slider/swiper-restaurant.css" />
+    <link rel="stylesheet" href="./css/swiper-slider/swiper-hotel.css" />
     <link rel="stylesheet" href="./css/modal/modal-book-table.css" />
-    <link rel="stylesheet" href="./css/common/header-home.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <load
@@ -55,6 +31,11 @@
       logo-theme="header-logo-light"
       nav-theme="site-nav-light"
       icon-theme="social-nav-light"
+      menu-icon-theme="menu-toggle-light"
+      home-page="current"
+      hotel-page=""
+      restaurant-page=""
+      room-page=""
     />
 
     <main>
@@ -67,7 +48,7 @@
     </main>
 
     <load src="partials/common/footer.html" />
-    <load src="partials/common/mob-menu.html" />
+    <load src="partials/common/mob-menu.html" logo-theme="header-logo-light" />
     <load src="partials/common/modal-book-table.html" />
 
     <script type="module" src="/main.js"></script>
