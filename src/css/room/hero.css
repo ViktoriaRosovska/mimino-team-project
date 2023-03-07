@@ -71,11 +71,12 @@
 }
 
 .hero-room-slider {
+  --swiper-theme-color: #121212;
+  --swiper-navigation-size: 14px;
+
   width: 520px;
   height: 429px;
   flex-shrink: 0;
-
-  background-color: #e2e2e2;
 }
 @media only screen and (min-width: 768px) {
   .hero-room-slider {
@@ -90,7 +91,7 @@
   }
 }
 .room-desc {
-  margin-top: 40px;
+  margin-top: 100px;
   max-width: 289px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -109,4 +110,25 @@
   .room-desc {
     margin-top: 169px;
   }
+}
+
+/* slider buttons*/
+.hero-room-slider-controls {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+
+  display: flex;
+  justify-content: space-between;
+  width: 104px;
+  height: 36px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  width: 36px;
+  height: 36px;
+
+  padding: 0;
+  border: none;
+  background-color: transparent;
 }
