@@ -25,7 +25,7 @@
   content: '';
   position: absolute;
   top: 47px;
-  left: 45%;
+  left: 50%;
   display: block;
   width: 4px;
   height: 4px;
@@ -40,7 +40,7 @@
 
 .site-nav-link:hover::after {
   display: block;
-  transform: scaleX(1000%);
+  width: 100%;
 }
 
 .header-logo {
