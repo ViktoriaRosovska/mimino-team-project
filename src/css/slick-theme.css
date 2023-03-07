@@ -75,6 +75,7 @@
 .slick-prev {
   position: inherit;
   left: 0;
+  top: 140%;
   z-index: 10;
 }
 [dir='rtl'] .slick-prev {
@@ -90,6 +91,7 @@
 
 .slick-next {
   left: 50px;
+  top: 140%;
 }
 [dir='rtl'] .slick-next {
   right: auto;
@@ -171,7 +173,7 @@
   width: 20px;
   height: 20px;
 
-  content: '•';
+  content: '';
   text-align: center;
 
   opacity: 0.25;
