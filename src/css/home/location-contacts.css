@@ -84,6 +84,14 @@
   text-transform: uppercase;
   color: #000000;
 }
+.location .title {
+  margin-bottom: 32px;
+  }
+@media screen and (min-width: 768px) {
+  .location .title {
+    margin-bottom: 40px;
+    }
+}
 
 .location-contact-all {
   display: flex;
