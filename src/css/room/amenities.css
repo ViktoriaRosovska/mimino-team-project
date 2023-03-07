@@ -29,12 +29,12 @@
 @media screen and (min-width: 1440px) {
   .amenities-list {
     margin-bottom: 0;
-    gap: 100px 32px;
+    gap: 100px 70px;
   }
 }
 .amenities-item {
   width: 100%;
-  max-width: 672px;
+  max-width: 633px;
 }
 .amenities-title {
   font-size: 28px;

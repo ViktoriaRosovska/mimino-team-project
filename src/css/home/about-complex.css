@@ -1,6 +1,6 @@
 .about-section {
   padding-top: 64px;
-  padding-bottom: 64px;
+
 }
 
 /* About common text styles */
@@ -125,7 +125,7 @@
 @media screen and (min-width: 768px) {
   .about-section {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
   }
   .about-img-item:nth-child(2) {
     position: absolute;
@@ -147,7 +147,7 @@
   .about-up-side {
     margin-bottom: 80px;
   }
-  .about-pic .about-image {
+  .about-pic .about-comp-image {
     margin-left: auto;
   }
   .about-bottom-side .about-rewiev {
@@ -164,13 +164,16 @@
 
 @media screen and (min-width: 1440px) {
   .about-section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
   .about-up-side {
     display: flex;
     gap: 107px;
     align-items: center;
+  }
+  .about-paragraph {
+    margin-right: 57px;
   }
   .about-descr {
     max-width: 530px;

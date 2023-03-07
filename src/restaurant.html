@@ -2,6 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant</title>
@@ -9,14 +15,20 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
 
-<link
+    <link rel="stylesheet" href="./css/common/header-rest.css" />
+
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
-<link rel="stylesheet" href="./css/swiper-restaurant.css" />
+    <link rel="stylesheet" href="./css/swiper-restaurant.css" />
 
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <link rel="stylesheet" href="./css/common/header-rest.css" />
+
+    <link rel="stylesheet" href="./css/modal/modal-book-table.css" />
   </head>
   <body>
     <load src="partials/common/header.html" />
@@ -26,10 +38,18 @@
       <load src="partials/restaurant/restaurant-menu.html" />
     </main>
     <load src="partials/common/footer.html" />
-  
-  
-    <script type="module" src="/main.js"></script>
+    <load src="partials/common/mob-menu.html" />
+    <load src="partials/common/modal-book-table.html" />
+
+    <script type="text/javascript" src="./js/slider-rest-hero"></script>
+    <script type="text/javascript" src="./js/modal-booking.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
- 
+
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script type="module" src="/main.js"></script>
+    <!-- <script src="js/script-rest-menu.js"></script> -->
+
   </body>
 </html>

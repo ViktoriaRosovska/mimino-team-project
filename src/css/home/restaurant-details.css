@@ -44,6 +44,9 @@
     }
 }
   @media screen and (min-width: 1440px) {
+    .restaurant-container{
+        padding-top: 44px;
+    }
     .title-thumb {
       margin-bottom: 125px;
     }
@@ -52,7 +55,7 @@
     }
     .btn-thumb {
         position: absolute;
-        top: 0;
+        top: 44px;
         right: 32px;
     }
    

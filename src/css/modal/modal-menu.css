@@ -9,12 +9,15 @@
     height: 100vh;
     padding-bottom: 24px;
     background-color: var(--main-dark-theme);
-    transition: transform 250ms ease-in-out;
-    transform: translateX(130%);
+    transform: translateX(-130%);
+    opacity: 0;
+
   }
   
   .menu-container.is-open {
     transform: translateX(0);
+    opacity: 1;
+    transition: transform  300ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .modal-close {

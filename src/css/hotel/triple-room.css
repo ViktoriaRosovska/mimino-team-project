@@ -4,7 +4,7 @@
     grid-template-columns: auto auto;
     grid-column-gap: 20px; 
     grid-row-gap: 20px;
-    
+    transition: var(--transition);
 
 }
 @media screen and (min-width: 768px) {
@@ -198,3 +198,22 @@ max-width: 335px;
 
 }
 }
+.hotel-triple-room .paragraph {
+    font-size: 14px;
+    line-height: 18px;
+}
+@media screen and (min-width: 768px) {
+    .hotel-triple-room .paragraph {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+.hotel-triple-room-picture .item {
+    overflow: hidden;
+  }
+  .triple-room-img {
+    transition: transform 300ms;
+  }
+  .hotel-triple-room-picture .item:hover .triple-room-img {
+    transform: scale(1.2);
+  }

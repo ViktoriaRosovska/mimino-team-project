@@ -19,6 +19,19 @@
   grid-row: 2/3;
 }
 
+/* Transform */
+.four-room-item {
+  overflow: hidden;
+  transition: var(--transition);
+}
+.four-room-img {
+  transform: scale(1);
+  transition: transform 300ms;
+}
+.four-room-item:hover .four-room-img {
+  transform: scale(1.2);
+}
+
 /* Text styles and others */
 .four-room-list {
   margin-bottom: 32px;
@@ -67,6 +80,8 @@
   .four-room-item:last-child {
     grid-column: 1/2;
     grid-row: 2/3;
+    display: grid;
+    justify-items: end;
   }
   .four-room-title {
     font-size: 40px;
@@ -115,4 +130,7 @@
     display: flex;
     justify-content: space-between;
   }
+    .four-room-btn {
+      line-height: 1.33;
+    }
 }

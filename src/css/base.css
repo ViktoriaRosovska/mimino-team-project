@@ -67,8 +67,8 @@
   border: 0.8px solid var(--main-light-theme);
   color: var(--main-light-theme);
   text-transform: uppercase;
+  transition: var(--transition);
 }
-
 .btn:hover,
 .btn:focus {
   background-color: var(--main-white-color);
@@ -78,6 +78,7 @@
 .btn-dark {
   color: var(--main-dark-theme);
   border-color: var(--main-dark-theme);
+  transition: var(--transition);
 }
 
 .btn-dark:hover,
@@ -95,16 +96,26 @@
 @media screen and (min-width: 768px) {
   .btn {
       padding: 8px 24px;
+      line-height: 1.71;
+      
     }
   }
-
+  @media screen and (min-width: 1440px) {
+    .btn {
+        padding: 9px 24px;
+        line-height: 1.333;
+      }
+    }
 
 .paragraph {
   text-transform: uppercase;
-  font-weight: var(--font-medium-500);
   line-height: 1.29;
   letter-spacing: -0.02em;
 }
+.paragraph-bold {
+  font-weight: var(--font-medium-500);
+}
+
 .title {
   text-transform: uppercase;
   font-size: 40px;
