@@ -22,6 +22,7 @@
 /* Transform */
 .four-room-item {
   overflow: hidden;
+  transition: var(--transition);
 }
 .four-room-img {
   transform: scale(1);

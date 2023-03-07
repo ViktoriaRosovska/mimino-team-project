@@ -1,8 +1,13 @@
 import './js/mobile-menu.js';
-import './js/modal-booking';
+import './js/modal-booking.js';
 import './js/swiper-restaurant.js';
-import './js/modal-select';
-import './js/swiper-hotel';
+
+
 import './js/script-rest-menu.js'
+
+import './js/modal-select.js';
+import './js/swiper-hotel.js';
+import './js/slider-rest-hero.js'
+
 
 
