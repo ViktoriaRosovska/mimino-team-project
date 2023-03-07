@@ -32,6 +32,11 @@
 {
     outline: none;
 }
+
+.slick-list.draggable {
+    pointer-events: none;
+}
+
 .slick-list.dragging
 {
     cursor: pointer;

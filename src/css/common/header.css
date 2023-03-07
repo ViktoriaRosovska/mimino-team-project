@@ -38,6 +38,12 @@
   display: none;
 }
 
+.site-nav-link:hover::after {
+  display: block;
+  width: 100%;
+  height: 2px;
+}
+
 .header-logo {
   display: flex;
   flex-direction: column;

@@ -12,6 +12,10 @@
     color: var(--main-dark-theme);
   }
 
+  .site-nav-link:hover::after {
+    background-color: var(--main-dark-theme);
+  }
+
   .header-logo {
     color: var(--main-dark-theme);
   }
