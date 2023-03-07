@@ -71,22 +71,40 @@
 }
 
 .hero-room-slider {
-  width: 520px;
-  height: 429px;
-  flex-shrink: 0;
+  --swiper-theme-color: #121212;
+  -swiper-navigation-color: var(--swiper-theme-color);
+  --swiper-navigation-size: 14px;
+  --swiper-navigation-top-offset: 0;
+  --swiper-navigation-sides-offset: 0;
 
-  background-color: #e2e2e2;
+  position: relative;
+  flex-shrink: 0;
+  padding-bottom: 60px;
 }
 @media only screen and (min-width: 768px) {
   .hero-room-slider {
-    width: 904px;
-    height: 548px;
+    padding-bottom: 76px;
   }
 }
 @media only screen and (min-width: 1440px) {
   .hero-room-slider {
-    height: 580px;
+    padding-bottom: 52px;
     margin-left: 112px;
+  }
+}
+.hero-room-slider-controls {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: space-between;
+  width: 104px;
+  height: 36px;
+}
+@media only screen and (min-width: 1440px) {
+  .hero-room-slider-controls {
+    left: 0;
   }
 }
 .room-desc {
@@ -94,6 +112,11 @@
   max-width: 289px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+@media only screen and (min-width: 768px) {
+  .room-desc {
+    margin-top: -36px;
+  }
 }
 @media only screen and (max-width: 1439px) {
   .room-desc[data-visible='desktop'] {
@@ -109,4 +132,31 @@
   .room-desc {
     margin-top: 169px;
   }
+}
+
+/* slider buttons*/
+.hero-room-slider .swiper {
+  width: 520px;
+  height: 429px;
+}
+@media only screen and (min-width: 768px) {
+  .hero-room-slider .swiper {
+    width: 904px;
+    height: 548px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .hero-room-slider .swiper {
+    height: 580px;
+  }
+}
+.swiper-button-next,
+.swiper-button-prev {
+  width: 36px;
+  height: 36px;
+
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
 }

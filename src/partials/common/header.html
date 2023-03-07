@@ -1,22 +1,29 @@
-<header class="section header-section">
+<header class="header-section {=$theme}">
   <div class="container header-container">
     <nav class="header-nav">
-      <ul class="site-nav">
-        <li><a class="site-nav-link" id="nav-home" href="./index.html">Home</a></li>
-        <li><a class="site-nav-link" id="nav-hotel" href="./hotel.html">Hotel</a></li>
+      <ul class="site-nav {=$nav-theme}">
         <li>
-          <a class="site-nav-link" id="nav-rest" href="./restaurant.html">Restaurant</a>
+          <a class="site-nav-link {=$home-page}" href="./index.html">Home</a>
         </li>
         <li>
-          <a class="site-nav-link" id="nav-room" href="./room.html">Room</a>
+          <a class="site-nav-link {=$hotel-page}" href="./hotel.html">Hotel</a>
+        </li>
+        <li>
+          <a class="site-nav-link {=$restaurant-page}" href="./restaurant.html">
+            Restaurant
+          </a>
+        </li>
+        <li>
+          <a class="site-nav-link {=$room-page}" href="./room.html">Room</a>
         </li>
       </ul>
     </nav>
-    <a href="./index.html" class="header-logo"
-      >MIMINO
-      <span class="logo-txt">restaurant-hotel complex</span>
+    <a class="header-logo {=$logo-theme}" href="./index.html">
+      <svg class="header-logo-icon" width="112" height="38">
+        <use href="img/svg/icons.svg#icon-logo"></use>
+      </svg>
     </a>
-    <nav class="social-nav">
+    <nav class="social-nav {=$icon-theme}">
       <ul class="social-items">
         <li class="social-item">
           <a
@@ -26,7 +33,7 @@
             target="_blank"
             rel="noreferrer noopener"
           >
-            <svg class="social-icon">
+            <svg class="social-icon" width="24" height="24">
               <use href="/img/svg/icons.svg#icon-instagram"></use>
             </svg>
           </a>
@@ -39,7 +46,7 @@
             target="_blank"
             rel="noreferrer noopener"
           >
-            <svg class="social-icon">
+            <svg class="social-icon" width="24" height="24">
               <use href="/img/svg/icons.svg#icon-facebook"></use>
             </svg>
           </a>
@@ -52,7 +59,7 @@
             target="_blank"
             rel="noreferrer noopener"
           >
-            <svg class="social-icon">
+            <svg class="social-icon" width="24" height="24">
               <use href="/img/svg/icons.svg#icon-twitter"></use>
             </svg>
           </a>
@@ -60,9 +67,13 @@
       </ul>
     </nav>
     <button
-      class="menu-toggle js-open-menu"
+      class="menu-toggle {=$menu-icon-theme} js-open-menu"
       aria-expanded="false"
       aria-controls="mobile-menu"
-    ></button>
+    >
+      <svg class="menu-toggle-icon">
+        <use href="img/svg/icons.svg#icon-menu"></use>
+      </svg>
+    </button>
   </div>
 </header>
