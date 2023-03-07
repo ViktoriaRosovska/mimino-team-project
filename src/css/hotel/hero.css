@@ -29,6 +29,9 @@
 }
 
 .slider-hotel-hero{
+    position: absolute;
+    top: -50px;
+    left: -100px; 
     min-width: 250px;
     min-height: 429px;
 }
