@@ -140,6 +140,7 @@
         height: 770px;
         padding-top: 0;
         padding-bottom: 0;
+        border: none;
     }
 
     .hero-img {
@@ -149,7 +150,7 @@
         top: 0;
         left: 898px;
         padding-bottom: 0;
-        margin-bottom: 76px;
+        margin-bottom: 0;
         background-size: contain;
         background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, 
 
@@ -176,6 +177,10 @@
         font-size: 180px;
         line-height: 1;
     }
+
+    .text-hero.text {
+        margin-right: 0;
+    }  
 
     .btns-hero {
         top: 650px;
