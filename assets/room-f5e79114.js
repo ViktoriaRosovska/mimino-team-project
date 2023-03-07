@@ -1,1 +1,0 @@
-import"./slider-rest-hero-02ee9939.js";new Swiper(".hero-room-slider",{slidesPerView:2,spaceBetween:20,loop:!0,navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},breakpoints:{768:{spaceBetween:32}}});
