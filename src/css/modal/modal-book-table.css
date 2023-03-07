@@ -24,6 +24,7 @@ body.lock-scroll { overflow: hidden; }
     transform: translate(-50%, -50%) scale(1);
     width: 335px;
     background-color: var(--main-dark-theme);
+    border: 0.5px solid var(--main-light-theme);
     color: var(--main-light-theme);
     z-index: 1000;
     padding-left: 24px;
