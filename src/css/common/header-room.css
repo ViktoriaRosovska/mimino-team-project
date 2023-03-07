@@ -1,9 +1,0 @@
-.menu-toggle {
-  background-image: url(/img/svg/menu-mob-b.svg);
-}
-
-@media (min-width: 768px) {
-  .menu-toggle {
-    background-image: url(/img/svg/menu-tab-b.svg);
-  }
-}
