@@ -15,7 +15,6 @@ body {
   font-family: 'DM Sans', sans-serif;
   font-size: 14px;
   line-height: 1.286;
-
   color: var(--main-dark-theme);
   background-color: var(--main-light-theme);
 }
