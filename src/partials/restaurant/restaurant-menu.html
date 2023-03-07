@@ -2,8 +2,8 @@
   <div class="rest-menu-container container">
     <h2 class="rest-menu-title title">RESTAURANT MENU</h2>
 
-    <ul class="rest-menu-common-list">
-      <li class="rest-menu-common-item">
+    <ul class="rest-menu-common-list rest-slider">
+      <li class="rest-menu-common-item rest-slider-item">
         <!-- <div class="rest-menu-thumb"> -->
         <h3 class="rest-menu-subtitle subtitle">Hot meals</h3>
         <ul class="rest-menu-list">
@@ -73,7 +73,7 @@
         </ul>
         <!-- </div> -->
       </li>
-      <li class="rest-menu-common-item">
+      <li class="rest-menu-common-item rest-slider-item">
         <!-- <div class="rest-menu-thumb"> -->
         <h3 class="rest-menu-subtitle subtitle">Side dishes and snacks</h3>
         <ul class="rest-menu-list">
@@ -135,7 +135,7 @@
         </ul>
         <!-- </div> -->
       </li>
-      <li class="rest-menu-common-item">
+      <li class="rest-menu-common-item rest-slider-item">
         <!-- <div class="rest-menu-thumb"> -->
         <h3 class="rest-menu-subtitle subtitle">Salads</h3>
         <ul class="rest-menu-list">
@@ -194,7 +194,7 @@
         </ul>
         <!-- </div> -->
       </li>
-      <li class="rest-menu-common-item">
+      <li class="rest-menu-common-item rest-slider-item">
         <ul class="rest-menu-drinks-list">
           <li class="rest-menu-drinks-item">
             <!-- <div class="rest-menu-thumb"> -->
@@ -262,8 +262,14 @@
       </li>
     </ul>
 
-    <button class="rest-menu-slide-btn btn"></button>
+    <div class="rest-menu-slide-btn"></div>
 
-    <button class="rest-menu-btn btn" type="button">book a table</button>
+    <button
+      class="rest-menu-btn btn js-open-modal btn"
+      data-modal="1"
+      type="button"
+    >
+      book a table
+    </button>
   </div>
 </section>

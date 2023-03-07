@@ -69,7 +69,6 @@
 
 .text-hero {
     text-align: left;
-    letter-spacing: .05em;
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: 0.05em;
@@ -128,11 +127,8 @@
     }
     .description-hero {
         display: flex;
-    
+        gap: 32px;
     }
-    .text-hero.text {
-        margin-right: -10px;
-    }   
 }
 
 @media screen and (min-width: 1440px) {
@@ -178,10 +174,7 @@
         line-height: 1;
     }
 
-    .text-hero.text {
-        margin-right: 0;
-    }  
-
+    
     .btns-hero {
         top: 650px;
         left: 1023px;
@@ -192,7 +185,7 @@
         display: flex;
         top: 650px;
         left: 32px;
-        width: 716px;
+        width: 696px;
     } 
         
        
