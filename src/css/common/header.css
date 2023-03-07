@@ -1,8 +1,20 @@
 .header-section {
-  padding: 0;
-  z-index: 1;
-  border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: var(--header-index);
+  width: 100%;
+  border-bottom-width: 0.5px;
+  border-bottom-style: solid;
+}
+
+.header-dark {
   background-color: var(--main-dark-theme);
+  border-bottom-color: rgba(247, 247, 247, 0.2);
+}
+
+.header-light {
+  background-color: var(--main-white-color);
+  border-bottom-color: rgba(18, 18, 18, 0.3);
 }
 
 .header-container {
@@ -14,10 +26,17 @@
   gap: 32px;
 }
 
+.site-nav-light {
+  color: var(--main-light-theme);
+}
+.site-nav-dark {
+  color: var(--main-dark-theme);
+}
+
 .site-nav-link {
   position: relative;
   padding: 27px 0;
-  color: var(--main-light-theme);
+  color: currentColor;
   text-transform: uppercase;
 }
 
@@ -30,8 +49,12 @@
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background-color: var(--main-light-theme);
+
   transform: translateX(-50%);
+}
+
+.site-nav-link::after {
+  background-color: currentColor;
 }
 
 .site-nav-link::after {
@@ -44,11 +67,16 @@
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: var(--main-light-theme);
   font-weight: var(--font-medium-500);
   line-height: 1.57;
   letter-spacing: 0.18em;
   text-transform: uppercase;
+}
+.header-logo-light {
+  color: var(--main-light-theme);
+}
+.header-logo-dark {
+  color: var(--main-dark-theme);
 }
 
 .menu-container .header-logo {
@@ -62,6 +90,12 @@
   line-height: 1.33;
 }
 
+.social-nav-light {
+  color: var(--main-light-theme);
+}
+.social-nav-dark {
+  color: var(--main-dark-theme);
+}
 .social-items {
   display: flex;
   gap: 14px;
@@ -83,7 +117,7 @@
 
 .social-icon {
   fill: none;
-  stroke: var(--main-light-theme);
+  stroke: currentColor;
 }
 
 .social-icon.menu {
@@ -146,11 +180,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .header-section {
-    position: absolute;
-    width: 100%;
-    background-color: transparent;
-  }
   .social-items {
     gap: 16px;
     margin-left: 504px;
