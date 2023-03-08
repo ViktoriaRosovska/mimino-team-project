@@ -19,7 +19,7 @@
 }
 .location-adress {
   position: absolute;
-  top: 72px;
+  top: 42px;
   min-height: 384px;
 }
 @media screen and (min-width: 768px) {
@@ -168,13 +168,13 @@
 .location {
   display: flex;
   flex-direction: column;
-  gap: 448px;
+  gap: 344px;
 }
 @media screen and (min-width: 768px) {
   .location {
     display: flex;
     flex-direction: column;
-    gap: 648px;
+    gap: 576px;
   }
 }
 
@@ -182,7 +182,7 @@
   .location {
     display: flex;
     flex-direction: column;
-    gap: 399px;
+    gap: 360px;
   }
 }
 .location-frame {
