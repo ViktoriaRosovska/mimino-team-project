@@ -65,7 +65,7 @@
 @media screen and (min-width: 1440px) {
   .location-map {
     position: relative;
-    top: -68px;
+    top: -60px;
 
     display: block;
     min-width: 640px;
