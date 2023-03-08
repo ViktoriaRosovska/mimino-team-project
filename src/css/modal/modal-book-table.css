@@ -103,9 +103,7 @@ body.lock-scroll { overflow: hidden; }
     border-radius: 4px;
     width: max-content;
     margin-left: auto;
-
     background-color: var(--main-light-theme);
-    /* border-bottom: 0.8px solid rgba(247, 247, 247, 0.2); */
 }
 .select-header {
     display: flex;
@@ -113,26 +111,42 @@ body.lock-scroll { overflow: hidden; }
     height: 27px;
     border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
 }
-
 .select-current {
     position: relative;
 }
 .select-item {
     color: var(--main-dark-theme);
-    /* background-color: var(--main-white-color); */
     font-size: 18px;
     cursor: pointer; 
     padding: 10px;
-    transition: var(--transition);
-    
+    transition: var(--transition); 
 }
 .select-item:hover,
 .select-item:focus {
    background-color: var(--main-dark-theme);
    color: var(--main-white-color);
- border-radius: 4px;
+   border-radius: 4px;
+}
+.select-room {
+    color: var(--main-light-theme);
+    padding-left: 0;
+}
+input[name="number-nights"]::-webkit-outer-spin-button,
+input[name="number-nights"]::-webkit-inner-spin-button {
+    /* opacity: 0; */
+    /* appearance: none; */
+    margin: 0;
 }
 
+.number-nights-book::after {
+   position: absolute; 
+   display: block;
+   content: '>';
+   width: 20px;
+   height: 20px;
+   background-color: blue; 
+   background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 7.5L10 12.5L15 7.5' stroke='%23F7F7F7' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+   }
 .select-icon {
     position: absolute;
     top: 0;
@@ -141,11 +155,24 @@ body.lock-scroll { overflow: hidden; }
     flex-shrink: 0;
     justify-content: center;
     align-items: center; 
-   
 }
 .quantity-person-table {
     display: none;
 }
+.number-nights {
+    display: block;
+    width: 100%;
+    user-select: auto;
+    height: 36px;
+    color: var(--main-white-color);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+
 .number-of-people {
     margin-bottom: 18px;
 }
@@ -173,6 +200,6 @@ body.lock-scroll { overflow: hidden; }
 
 .user-input[type=date], .user-input[type=datetime-local] {
     background-position: right center;
-    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 7.5L10 12.5L15 7.5' stroke='%23F7F7F7' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");;
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 7.5L10 12.5L15 7.5' stroke='%23F7F7F7' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
 }
