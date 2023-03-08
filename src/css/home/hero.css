@@ -47,6 +47,8 @@
     text-transform: uppercase;
 
     color: var(--main-light-theme);
+
+    animation: up-to-bottom 1000ms ease-in-out 500ms both;
 }
 
 .btns-hero {
