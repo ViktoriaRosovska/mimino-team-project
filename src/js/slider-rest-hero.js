@@ -4,10 +4,11 @@
   function createSlider(slidesPerView) {
     slider?.destroy();
     slider = new Swiper(".rest-hero-swiper", {
-      slidesPerView: slidesPerView,
+      slidesPerView: 1.5,
+      spaceBetween: 32,
       centeredSlides: false,
       loop: true,
-      spaceBetween: 30,
+  
 
       autoplay: true,
       navigation: {
@@ -24,8 +25,8 @@
       createSlider(slidesPerView);
   }
 
-  subscribe("(min-width: 1440px)", 2);
-  subscribe("(min-width: 768px) and (max-width: 1439px)", 2);
-  subscribe("(max-width: 767px)", 2);
+  subscribe("(min-width: 1440px)", 1.5);
+  subscribe("(min-width: 768px) and (max-width: 1439px)", 1.5);
+  subscribe("(max-width: 767px)", 1.5);
 })();
 
