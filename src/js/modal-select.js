@@ -1,6 +1,5 @@
     
 let select = function () {
-
     let selectHeader = document.querySelectorAll('.select-header');
     let selectItem = document.querySelectorAll('.select-item');
     
@@ -24,7 +23,5 @@ let select = function () {
         select.classList.remove('is-active');
         console.log(text);
      }
-
-
 };
 select();

@@ -12,14 +12,12 @@
  
  .swiper-restaurant .swiper-slide {
     flex-shrink: 0;
-
     transition-property: transform;
     display: block;
  }
-
  
 @media screen and (min-width: 1440px) {
-   .swiper-restaurant {
+   .swiper-restaurant .swiper-wrapper{
 
       width: 1458px;
 
