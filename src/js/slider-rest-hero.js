@@ -8,8 +8,6 @@
       spaceBetween: 32,
       centeredSlides: false,
       loop: true,
-  
-
       autoplay: true,
       navigation: {
         nextEl: ".swiper-button-next",
