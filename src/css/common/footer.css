@@ -80,7 +80,7 @@
   top: 20px;
   left: 50%;
   display: block;
-  height: 2px;
+  height: 3px;
   border-radius: 50%;
   background-color: var(--main-dark-theme);
   transform: translateX(-50%);
