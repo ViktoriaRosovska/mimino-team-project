@@ -1,4 +1,4 @@
-.hero-room {
+/* .hero-room {
   max-width: 375px;
   margin: 0 auto;
   overflow: hidden;
@@ -71,22 +71,40 @@
 }
 
 .hero-room-slider {
-  width: 520px;
-  height: 429px;
-  flex-shrink: 0;
+  --swiper-theme-color: #121212;
+  -swiper-navigation-color: var(--swiper-theme-color);
+  --swiper-navigation-size: 14px;
+  --swiper-navigation-top-offset: 0;
+  --swiper-navigation-sides-offset: 0;
 
-  background-color: #e2e2e2;
+  position: relative;
+  flex-shrink: 0;
+  padding-bottom: 60px;
 }
 @media only screen and (min-width: 768px) {
   .hero-room-slider {
-    width: 904px;
-    height: 548px;
+    padding-bottom: 76px;
   }
 }
 @media only screen and (min-width: 1440px) {
   .hero-room-slider {
-    height: 580px;
+    padding-bottom: 52px;
     margin-left: 112px;
+  }
+}
+.hero-room-slider-controls {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: space-between;
+  width: 104px;
+  height: 36px;
+}
+@media only screen and (min-width: 1440px) {
+  .hero-room-slider-controls {
+    left: 0;
   }
 }
 .room-desc {
@@ -94,6 +112,11 @@
   max-width: 289px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+@media only screen and (min-width: 768px) {
+  .room-desc {
+    margin-top: -36px;
+  }
 }
 @media only screen and (max-width: 1439px) {
   .room-desc[data-visible='desktop'] {
@@ -109,4 +132,253 @@
   .room-desc {
     margin-top: 169px;
   }
+} */
+
+/* slider buttons*/
+
+/* .hero-room-slider .swiper {
+  width: 520px;
+  height: 429px;
+}
+@media only screen and (min-width: 768px) {
+  .hero-room-slider .swiper {
+    width: 904px;
+    height: 548px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .hero-room-slider .swiper {
+    height: 580px;
+  }
+}
+.swiper-button-next,
+.swiper-button-prev {
+  width: 36px;
+  height: 36px;
+
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+} */
+.room-hero-section {
+  padding-top: 40px;
+  padding-bottom: 32px;
+}
+.room-hero-text {
+  margin-top: 40px; 
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: var(--main-dark-theme);
+  
+}
+.room-btn {
+  margin-bottom: 40px;
+}
+
+.room-hero-container {
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.room-hero-title {
+  width: 270px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: calc(40 / 40);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #121212;
+  margin-bottom: 24px;
+}
+@media only screen and (min-width: 768px) {
+  .room-hero-title {
+    width: 406px;
+    margin-bottom: 18px;
+    font-size: 60px;
+   
+
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .room-hero-title {
+    width: 592px;
+    margin-bottom: 32px;
+    font-size: 80px;
+  }
+}
+.hero-room-cursive {
+  font-style: italic;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1439px){
+  .room-hero-section {
+    padding-bottom: 40px;
+  }
+  .room-hero-container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .room-hero-text {
+    width: 338px;
+    margin-top: 0px;
+}.room-hero-title {
+    font-weight: 400;
+    font-size: 80px;
+    margin-bottom: 40px;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+  .room-hero-title {
+    font-weight: 400;
+    font-size: 90px;
+    margin-top: 282px;
+    margin-bottom: 32px;
+  }
+  .room-hero-text {
+    margin-top: 204px;
+    margin-bottom: 48px;
+  }
+  .room-hero-section {
+    padding-top: 0;
+  }
+  .room-hero-btn-list {
+    margin-bottom: 100px;
+  }
+}
+.room-hero-swiper .swiper-button-next ,
+ .room-hero-swiper .swiper-button-prev {
+    position: absolute;
+    left: 0;
+    bottom:0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-dark-theme);
+    user-select: none;
+    opacity: .3;
+    z-index: 10;
+    transition: var(--transition);
+ }
+@media screen and (min-width: 768px){
+  .swiper-wrapper {
+  padding-bottom: 40px;
+}
+}
+
+.swiper-slide {
+  margin: 0;
+}
+/* slider */
+@media screen and (max-width: 767px) {
+  .room-hero-text {
+    margin-top: 100px;
+  }
+.room-hero-wrapper .swiper-button-next:after {
+        margin-bottom: -50px;
+         margin-right: 0px;
+      }
+.room-hero-wrapper .swiper-button-prev:after {
+         margin-left: -65px;
+         margin-bottom: -50px;
+      }
+.room-hero-swiper-btn {
+      position: relative;
+      right: -310px;
+     }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1439px){
+  .room-hero-swiper .swiper-wrapper {
+ 
+  outline: 1px solid greenyellow;
+}
+.room-hero-wrapper .swiper-button-next:after {
+  margin-bottom: 0px;
+  margin-right: -143px;
+}
+
+.room-hero-wrapper .swiper-button-prev:after {
+  margin-left: 0;
+  margin-bottom: 0px;
+}
+
+.room-hero-swiper-btn {
+  position: relative;
+  bottom: -10px;
+  left: 628px;
+}
+}
+.hide-desktop {
+  display: none;
+}
+@media screen and (min-width: 1440px){
+  .hide-tablet {
+    display: none;
+  }
+  .hide-desktop {
+    display: block;
+  }
+  .room-hero-text {
+    width: 289px;
+  }
+  .room-hero-container {
+    display: flex;
+   
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 181px;
+    align-content: center; 
+    outline: 1px solid blue;
+   
+    }
+.room-hero-wrapper {
+  position: relative;
+  top:  100px;
+ overflow: hidden;
+   
+}
+.room-hero-swiper-btn {
+  position: relative;
+  bottom: -10px;
+  right: -32px;
+}
+  .room-hero-swiper {
+   height: 580px;
+  outline: 1px solid red;
+  
+}
+.room-hero-wrapper .swiper-button-next:after {
+  margin-bottom: 0px;
+  margin-right: -143px;
+}
+
+.room-hero-wrapper .swiper-button-prev:after {
+  margin-left: 0;
+  margin-bottom: 0px;
+}
+}
+ 
+.room-hero-swiper .room-hero-btn-next:after {
+content: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 15L8 8L1 0.999999' stroke='%23121212' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+  
+.room-hero-swiper .room-hero-btn-prev:after {
+  content: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 15L0.999999 8L8 0.999999' stroke='%23121212' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  
+}
+ .room-hero-btn-next:hover,
+ .room-hero-btn-next:focus,
+ .room-hero-btn-prev:hover,
+ .room-hero-btn-prev:focus {
+  opacity: 1;
 }
