@@ -20,9 +20,10 @@
 @media screen and (max-width: 767px) {
     .title-hotel-details {
       margin-bottom: 32px;
+    }
     
 }
-}
+
 
 @media screen and (min-width: 768px) {
     .hotel-details-section {
@@ -31,6 +32,9 @@
     }
     .title-hotel-details {
         margin-bottom: 80px;
+    }
+    .slider-thumb {
+        display: none;
     }
 }
 
