@@ -17,7 +17,7 @@
   padding-bottom: 32px;
 
   /* Видалити перед фінальною збіркою */
-  border: 1px solid lightgreen;
+  /* border: 1px solid lightgreen; */
 }
 @media screen and (min-width: 768px) {
   .section {
@@ -42,8 +42,8 @@
   margin-right: auto;
 
   /* Видалити перед фінальною збіркою */
-  outline: 2px solid red;
-  outline-offset: -2px;
+  /* outline: 2px solid red;
+  outline-offset: -2px; */
 }
 
 @media screen and (min-width: 768px) {

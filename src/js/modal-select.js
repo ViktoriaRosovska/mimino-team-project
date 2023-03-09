@@ -1,4 +1,3 @@
-    
 let select = function () {
     let selectHeader = document.querySelectorAll('.select-header');
     let selectItem = document.querySelectorAll('.select-item');
