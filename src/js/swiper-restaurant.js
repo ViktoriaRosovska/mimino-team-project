@@ -9,7 +9,7 @@
       loop: true,
       spaceBetween: 30,
 
-      autoplay: true,
+      aautoplay: true,
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",

@@ -4,6 +4,7 @@
 
     user-select: none;
     display: flex;
+    overflow: hidden;
 
     margin-bottom: 40px;
     /* outline: 1px solid red; */
@@ -15,14 +16,6 @@
     transition-property: transform;
     display: block;
  }
- 
-@media screen and (min-width: 1440px) {
-   .swiper-restaurant .swiper-wrapper{
-
-      width: 1458px;
-
-   }
-}
  
  .swiper-restaurant .swiper-wrapper {
    position: relative;
@@ -36,7 +29,14 @@
    transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);   
 
 }
+ @media screen and (min-width: 1440px) {
+    .swiper-restaurant .swiper-wrapper {
 
+       width: 1458px;
+
+    }
+ }
+ 
   .swiper-restaurant .swiper-button-next,
   .swiper-restaurant .swiper-button-prev {
     user-select: none;
