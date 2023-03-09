@@ -115,7 +115,7 @@
 @media screen and (min-width: 768px) and (max-width: 1439px){
   .rest-hero-swiper .swiper-wrapper {
  
-  outline: 1px solid greenyellow;
+  /* outline: 1px solid greenyellow; */
 }
 .rest-hero-wrapper .swiper-button-next:after {
   margin-bottom: 0px;
@@ -153,7 +153,7 @@
     flex-wrap: nowrap;
     gap: 181px;
     align-content: center; 
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
    
     }
 .rest-hero-wrapper {
@@ -169,7 +169,7 @@
 }
   .rest-hero-swiper {
    height: 580px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   
 }
 .rest-hero-wrapper .swiper-button-next:after {
