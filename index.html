@@ -48,10 +48,10 @@
     
     
     <script type="module" crossorigin src="/mimino-team-project/assets/room-slider-d1e5b8f9.js"></script>
-    <link rel="stylesheet" href="/mimino-team-project/assets/room-slider-591cd01f.css">
+    <link rel="stylesheet" href="/mimino-team-project/assets/room-slider-0b95afce.css">
     <link rel="stylesheet" href="/mimino-team-project/assets/index-2930303a.css">
     <link rel="stylesheet" href="/mimino-team-project/assets/swiper-hotel-950bcdf3.css">
-    <link rel="stylesheet" href="/mimino-team-project/assets/modal-book-table-c1b7f2d2.css">
+    <link rel="stylesheet" href="/mimino-team-project/assets/modal-book-table-2503b923.css">
   </head>
   <body>
     <header class="section header-section">
@@ -1175,7 +1175,6 @@
       </label>
 
       <div class="number-of-people" role="group">
-
         <select name="quantity-people" class="quantity-person-table">
           <option value="1">1</option>
         </select>
@@ -1215,10 +1214,9 @@
           class="user-input user-phone-input"
           name="tel"
           type="tel"
-          placeholder="+38(000)000-00-00"
-          maxlength="13"
-          pattern="/^[+][0-9]{3}[0-9]{2}[0-9]{3}[0-9]{4}$/"
-
+          placeholder="+38(000)-000-00-00"
+          maxlength="18"
+          pattern="^\+38\d{3}\d{3}\d{2}\d{2}$"
           required
         />
         Phone number
@@ -1238,7 +1236,7 @@
     <form class="form-book-room">
       <label class="form-style-label user-booking input-width">
         <input
-          class="user-input book-room-input"
+          class="user-input room-input"
           name="name"
           type="text"
           placeholder="Your name"
@@ -1247,12 +1245,12 @@
       </label>
       <label class="form-style-label tel-form input-width">
         <input
-          class="user-input user-phone-input room-input"
+          class="user-input user-phone-input"
           name="tel"
           type="tel"
-          placeholder="+38(000) 000-00-00"
-          maxlength="13"
-          pattern="/^\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}/"
+          placeholder="+38(000)-000-00-00"
+          maxlength="18"
+          pattern="^\+38\d{3}\\d{3}\d{2}\d{2}$"
           required
         />
         Phone number
@@ -1332,7 +1330,7 @@
       </div>
 
       <div role="group" name="number-nihgts" class="number-nihgts-group">
-        <label class="form-style-label input-width">
+        <label class="form-style-label input-width mg-number">
           <input
             class="user-input number-nights-book"
             name="user-price"
@@ -1348,7 +1346,7 @@
           number of nights
         </label>
       </div>
-      <label class="form-style-label input-width number-nights-date">
+      <label class="form-style-label input-width">
         <input
           class="user-input user-date"
           name="date"
