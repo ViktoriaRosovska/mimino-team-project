@@ -19,7 +19,7 @@
   padding: 10px 15px;
   color: var(--main-light-theme);
   text-transform: uppercase;
-  border-radius: 19px;
+  border-radius: 4px;
   transition: var(--transition);
 }
 
