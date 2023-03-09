@@ -825,9 +825,6 @@
       </label>
 
       <div class="number-of-people" role="group">
-        <select name="quantity-people" class="sum-nights">
-          <option value="1">1</option>
-        </select>
         <div class="select">
           <div class="select-header user">
             <span class="select-current holder">number of people</span>
@@ -864,6 +861,8 @@
           class="user-input user-phone-input"
           name="tel"
           type="tel"
+          pattern="^\+38\(\d{3}\)-\d{3}-\d{2}-\d{2}$"
+          title="+38(xxx)-xxx-xx-xx"
           placeholder="+38( ) "
           required
         />
@@ -896,6 +895,8 @@
           class="user-input user-phone-input"
           name="tel"
           type="tel"
+          pattern="^\+38\(\d{3}\)-\d{3}-\d{2}-\d{2}$"
+          title="+38(xxx)-xxx-xx-xx"
           placeholder="+38( ) "
           required
         />
