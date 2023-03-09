@@ -44,14 +44,14 @@
     />
     <!-- <link rel="stylesheet" href="./css/swiper-restaurant.css" /> -->
     
-    
     <!-- <link rel="stylesheet" href="./css/swiper-slider/swiper-restaurant.css" /> -->
     
     
     
+    
     <script type="module" crossorigin src="/mimino-team-project/assets/room-slider-d1e5b8f9.js"></script>
-    <link rel="stylesheet" href="/mimino-team-project/assets/room-slider-df92668b.css">
-    <link rel="stylesheet" href="/mimino-team-project/assets/restaurant-a6110946.css">
+    <link rel="stylesheet" href="/mimino-team-project/assets/room-slider-2e93800d.css">
+    <link rel="stylesheet" href="/mimino-team-project/assets/restaurant-f421aa1d.css">
     <link rel="stylesheet" href="/mimino-team-project/assets/swiper-hotel-950bcdf3.css">
     <link rel="stylesheet" href="/mimino-team-project/assets/modal-book-table-af13656a.css">
   </head>
@@ -60,13 +60,16 @@
   <div class="container header-container">
     <nav class="header-nav">
       <ul class="site-nav">
-        <li><a class="site-nav-link" id="nav-home" href="./index.html">Home</a></li>
-        <li><a class="site-nav-link" id="nav-hotel" href="./hotel.html">Hotel</a></li>
         <li>
-          <a class="site-nav-link" id="nav-rest" href="./restaurant.html">Restaurant</a>
+          <a class="site-nav-link" id="nav-home" href="./index.html">Home</a>
         </li>
         <li>
-          <a class="site-nav-link" id="nav-room" href="./room.html">Room</a>
+          <a class="site-nav-link" id="nav-hotel" href="./hotel.html">Hotel</a>
+        </li>
+        <li>
+          <a class="site-nav-link" id="nav-rest" href="./restaurant.html"
+            >Restaurant</a
+          >
         </li>
       </ul>
     </nav>
@@ -142,7 +145,7 @@
           </button>
         </li>
         <li>
-          <button class="btn btn-dark" type="button">View a menu</button>
+          <button class="btn btn-dark" type="button" onclick="window.location.href = '#menu';">View a menu</button>
         </li>
       </ul>
       <p class="paragraph rest-hero-text paragraph hide-desktop">
@@ -396,7 +399,7 @@
 </section>
 
       <section class="rest-menu-section section">
-  <div class="rest-menu-container container">
+  <div class="rest-menu-container container" id="menu">
     <h2 class="rest-menu-title title">RESTAURANT MENU</h2>
 
     <ul class="rest-menu-common-list rest-slider">
@@ -755,7 +758,6 @@
     <li><a href="./index.html" class="link">Home</a></li>
     <li><a href="./hotel.html" class="link">Hotel</a></li>
     <li><a href="./restaurant.html" class="link">Restaurant</a></li>
-    <li><a class="link" href="./room.html">Room</a></li>
   </ul>
   <nav class="social">
     <ul class="social-items">
