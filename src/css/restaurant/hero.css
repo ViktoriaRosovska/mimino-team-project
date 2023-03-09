@@ -113,10 +113,7 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 1439px){
-  .rest-hero-swiper .swiper-wrapper {
  
-  /* outline: 1px solid greenyellow; */
-}
 .rest-hero-wrapper .swiper-button-next:after {
   margin-bottom: 0px;
   margin-right: -143px;
@@ -149,19 +146,15 @@
   
   .restaurant-hero-container {
     display: flex;
-   
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 181px;
     align-content: center; 
-    /* outline: 1px solid blue; */
-   
     }
 .rest-hero-wrapper {
   position: relative;
   top:  100px;
- overflow: hidden;
-   
+  overflow: hidden; 
 }
 .rest-hero-swiper-btn {
   position: relative;
@@ -170,7 +163,6 @@
 }
   .rest-hero-swiper {
    height: 580px;
-  /* outline: 1px solid red; */
   
 }
 .rest-hero-wrapper .swiper-button-next:after {

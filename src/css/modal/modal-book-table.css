@@ -149,10 +149,7 @@ body.lock-scroll { overflow: hidden; }
 .mg-select {
     margin-bottom: 32px;
 }
-.number-nights-group {
-    height: 36px;
-    margin-bottom: 32px;
-}
+
 .select-icon {
     position: absolute;
     top: 0;
@@ -168,13 +165,7 @@ body.lock-scroll { overflow: hidden; }
 .number-of-people {
     margin-bottom: 18px;
 }
-.user-date {
-    
-    font-size: 14px;   
-}
-.tel-form {
-    margin-bottom: 40px;
-}
+
 .form-book-table,.form-book-room,
 .form-prices-per-room  {
     display: flex;
@@ -216,7 +207,9 @@ body.lock-scroll { overflow: hidden; }
 .mg-label {
     margin-bottom: 0;
 }
-
+.mg-number {
+    margin-bottom: 12px;
+}
 @media screen and (min-width: 768px) {
    .modal {
     min-width: 628px;
@@ -229,10 +222,7 @@ body.lock-scroll { overflow: hidden; }
    }
    .input-width {
     width: 266px;
-    height: 36px;
-   }
-   .form-style-label {
-    margin-bottom: 0;
+   
    }
    .form-book-table, 
    .form-book-room,
@@ -242,7 +232,6 @@ body.lock-scroll { overflow: hidden; }
     flex-wrap: wrap;
     row-gap: 40px;
     column-gap: 32px;
-    align-items: center;
    }
 
    .form-prices-per-room {
@@ -254,18 +243,10 @@ body.lock-scroll { overflow: hidden; }
     margin-left: auto;
     margin-right: auto;
    }
-  .number-nights-date,
- .user-price
-   {
-    display: block;
-    line-height: 36px;
-  }
+  
    }
    .number-nights-book {
-    display: block;
-    padding: 0;
-    height: 36px;
-    line-height: 36px;
+    
     background-color: transparent;
     font-size: 14px;
     outline: transparent;
@@ -282,8 +263,5 @@ input[type="number"]::-webkit-inner-spin-button {
     cursor: pointer;
     width: 30px;
 }
-.room-input {
-    
-    
-}
+
 
