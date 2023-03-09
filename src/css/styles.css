@@ -10,6 +10,10 @@
 @import url('./base.css');
 @import url('./modal/modal-menu.css');
 @import url('./modal/modal-book-table.css');
+@import url('./swiper-slider/swiper-restaurant.css');
+@import url('./swiper-slider/swiper-hotel.css');
+@import url('./slick-theme.css');
+@import url('./slick.css');
 
 
 /* Header */
