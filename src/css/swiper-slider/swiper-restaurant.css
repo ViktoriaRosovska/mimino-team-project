@@ -67,7 +67,7 @@
     margin-right: 20px; 
    }
    
-   @media screen and (min-width: 768px) {
+   @media screen and (min-width: 768px) and (max-width: 1439px){
       .swiper-restaurant .swiper-button-next:after {
          margin-top: 330px;
          margin-left: 82px;
@@ -85,4 +85,15 @@
   opacity: 1;
 }
 
- 
+ @media screen and (min-width: 1440px) {
+   .swiper-restaurant .swiper-button-next:after {
+         margin-top: 320px;
+         margin-left: 82px;
+      }
+   
+      .swiper-restaurant .swiper-button-prev:after {
+         margin-top: 320px;
+         margin-right: 0;
+      }
+   
+ }
