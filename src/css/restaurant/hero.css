@@ -146,6 +146,7 @@
   .rest-hero-text {
     width: 289px;
   }
+  
   .restaurant-hero-container {
     display: flex;
    
@@ -175,11 +176,13 @@
 .rest-hero-wrapper .swiper-button-next:after {
   margin-bottom: 0px;
   margin-right: -143px;
+  margin-top: 16px;
 }
 
 .rest-hero-wrapper .swiper-button-prev:after {
   margin-left: 0;
   margin-bottom: 0px;
+  margin-top: 16px;
 }
 }
  
