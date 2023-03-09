@@ -12,8 +12,14 @@
   color: var(--main-dark-theme);
 }
 
-.site-nav-link:hover::after {
+.site-nav-link:hover,
+.site-nav-link:focus {
   background-color: var(--main-dark-theme);
+  color:var(--main-light-theme);
+}
+
+#nav-hotel:hover::after {
+  background-color: var(--main-light-theme);
 }
 
 .header-logo {
