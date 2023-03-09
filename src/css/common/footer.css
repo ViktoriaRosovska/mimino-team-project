@@ -74,7 +74,7 @@
   letter-spacing: 0.05em;
 }
 
-.link-footer::after {
+/* .link-footer::after {
   content: '';
   position: absolute;
   top: 20px;
@@ -91,7 +91,7 @@
 .link-footer:hover::after {
   opacity: 1;
   width: 100%;
-}
+} */
 
 
 @media screen and (max-width: 1439px) {
